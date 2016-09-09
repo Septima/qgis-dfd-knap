@@ -1,0 +1,50 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Kortforsyningen
+qgisMinimumVersion=2.0
+description=The plugin makes it easy to access Web Map Services (WMS) from Kortforsyningen (Danish geodata) in QGIS Desktop.
+In order to use the plugin, a Kortforsyningen user account is required. 
+If yoy already have an account, please enter your username and password in the plugin setting dialogue . 
+If you do not have an account, please follow the link in the setting dialogue and create one.
+The plugin is developed by Danish Agency for Data supply and Efficiency (www.kortforsyningen.dk, kortforsyningen@gmail.com)
+
+
+version=0.1
+author= Danish Agency for Data supply and Efficiency
+email= kortforsyningen@gmail.com
+
+about=
+    This plugin makes it easy to use the WMS-service with Danish geodata from Kortforsyningen.
+    A new menu is added to QGIS which contains WMS' ordered by category.
+    The plugin is developed by Danish Agency for Data supply and Efficiency. A special thanks to Septima for helping us.
+
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=Changelog:
+2016-06-01: First release, version 0.1
+
+# Tags are comma separated with spaces allowed
+tags=Danmark, Denmark, frie data, open data, dansk, Danish, Kortforsyningen, Map supply, WMS, vector 
+
+homepage=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen
+tracker=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen/issues
+repository=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
