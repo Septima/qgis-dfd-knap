@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- KortforsyningenAboutDialog
+ SettingsDialog
                                  A QGIS plugin
- Nem adgang til kortforsyningens wms
+ Easy access to services from Datafordeleren
                              -------------------
-        begin                : 2015-05-01
+        begin                : 2016-09-09
         git sha              : $Format:%H$
-        copyright            : (C) 2015 Agency for Data supply and Efficiency
-        email                : kortforsyningen@gmail.com
+        copyright            : (C) 2016 Septima P/S
+        email                : kontakt@septima.dk
  ***************************************************************************/
 
 /***************************************************************************
@@ -23,13 +23,23 @@
 
 import os
 from PyQt4 import QtGui, uic
+from qgissettingmanager import SettingManager, SettingDialog
 
 FORM_CLASS, _ = uic.loadUiType(
-    os.path.join(os.path.dirname(__file__), 'aboutKortforsyningen.ui')
+    os.path.join(os.path.dirname(__file__), 'settings.ui')
 )
 
 
-class KFAboutDialog(QtGui.QDialog, FORM_CLASS):
+class Settings(SettingManager):
     def __init__(self):
+        SettingManager.__init__(self, 'Datafordeler')
+        self.addSetting('username', 'string', 'global', '')
+        self.addSetting('password', 'string', 'global', '')
+        self.addSetting('remember_settings', 'bool', 'global', False)
+
+
+class SettingsDialog(QtGui.QDialog, FORM_CLASS, SettingDialog):
+    def __init__(self, settings):
         QtGui.QDialog.__init__(self)
         self.setupUi(self)
+        SettingDialog.__init__(self, settings)

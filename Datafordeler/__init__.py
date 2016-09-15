@@ -3,9 +3,9 @@
 /***************************************************************************
  KortForsyningen
                                  A QGIS plugin
- Easy access to WMS from Kortforsyningen
+ Easy access to services from Datafordeleren
                              -------------------
-        begin                : 2015-05-01
+        begin                : 2016-09-09
         copyright            : (C) 2016 by Septima P/S
         email                : kontakt@septima.dk
         git sha              : $Format:%H$
@@ -25,11 +25,11 @@
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
-    """Load KortForsyningen class from file KortForsyningen.
+    """Load Datafordeler class from file Datafordeler.
 
     :param iface: A QGIS interface instance.
     :type iface: QgsInterface
     """
     #
-    from .kortforsyningen import Kortforsyningen
-    return Kortforsyningen(iface)
+    from .plugin import Datafordeler
+    return Datafordeler(iface)

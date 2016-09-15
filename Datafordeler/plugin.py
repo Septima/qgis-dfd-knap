@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- Kortforsyningen
+ Datafordeler
                                  A QGIS plugin
- Easy access to WMS from Kortforsyningen (A service by The Danish geodataservice. Styrelsen for Dataforsyning og Effektivisering)
+ Easy access to services from Datafordeleren
                               -------------------
-        begin                : 2015-05-01
+        begin                : 2016-09-09
         git sha              : $Format:%H$
-        copyright            : (C) 2015 Agency for Data supply and Efficiency
-        email                : kortforsyningen@gmail.com
+        copyright            : (C) 2016 Septima
+        email                : kontakt@septima.dk
  ***************************************************************************/
 
 /***************************************************************************
@@ -29,26 +29,26 @@ from qgis.gui import QgsMessageBar
 from qgis.core import *
 # Initialize Qt resources from file resources.py
 import resources_rc
-from kortforsyningen_settings import KFSettings, KFSettingsDialog
+from plugin_settings import Settings, SettingsDialog
 import os.path
 import datetime
 from urllib2 import urlopen, URLError, HTTPError
 import json
 import codecs
-from kortforsyningen_about import KFAboutDialog
+from plugin_about import AboutDialog
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
 
 from project import QgisProject
-CONFIG_FILE_URL = 'http://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/themes.json'
-ABOUT_FILE_URL = 'http://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/about.html'
+CONFIG_FILE_URL = 'http://labs-develop.septima.dk/qgis-dfd-knap/themes.json'
+ABOUT_FILE_URL = 'http://labs-develop.septima.dk/qgis-dfd-knap/about.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 
 def log_message(message):
-    QgsMessageLog.logMessage(message, 'Kortforsyningen plugin')
+    QgsMessageLog.logMessage(message, 'Datafordeler plugin')
 
 
-class Kortforsyningen:
+class Datafordeler:
     """QGIS Plugin Implementation."""
 
     def __init__(self, iface):
@@ -61,15 +61,15 @@ class Kortforsyningen:
         """
         # Save reference to the QGIS interface
         self.iface = iface
-        self.settings = KFSettings()
+        self.settings = Settings()
         self.path = QFileInfo(os.path.realpath(__file__)).path()
 
-        self.kf_path = self.path + '/kf/'
-        if not os.path.exists(self.kf_path):
-            os.makedirs(self.kf_path)
+        self.path = self.path + '/dfd/'
+        if not os.path.exists(self.path):
+            os.makedirs(self.path)
 
-        self.local_config_file = self.kf_path + 'themes.json'
-        self.local_about_file = self.kf_path + 'about.html'
+        self.local_config_file = self.path + 'themes.json'
+        self.local_about_file = self.path + 'about.html'
 
         # An error menu object, set to None.
         self.error_menu = None
@@ -115,7 +115,7 @@ class Kortforsyningen:
                 log_message('No contact to the configuration at ' + ABOUT_FILE_URL + '. Exception: ' + str(e))
                 if not local_file_exists:
                     self.error_menu = QAction(
-                        self.tr('No contact to Kortforsyning'),
+                        self.tr('No contact to Datafordeleren'),
                         self.iface.mainWindow()
                     )
                 return
@@ -147,7 +147,7 @@ class Kortforsyningen:
                 log_message(u'No contact to the configuration at ' + CONFIG_FILE_URL + '. Exception: ' + str(e))
                 if not local_file_exists:
                     self.error_menu = QAction(
-                        self.tr('No contact to Kortforsyningen'),
+                        self.tr('No contact to Datafordeleren'),
                         self.iface.mainWindow()
                     )
                 return
@@ -179,7 +179,7 @@ class Kortforsyningen:
         self.categories = config['categories']
         for category in self.categories:
             url = category['url']
-            filepath = self.kf_path + url.rsplit('/', 1)[-1]
+            filepath = self.path + url.rsplit('/', 1)[-1]
             if os.path.exists(filepath):
                 file_time = datetime.datetime.fromtimestamp(
                     os.path.getmtime(filepath)
@@ -189,7 +189,7 @@ class Kortforsyningen:
 
             try:
                 f = urlopen(url)
-                # Write the file as filename to kf_path
+                # Write the file as filename to path
                 with codecs.open(filepath, "wb") as local_file:
                     local_file.write(f.read())
             except HTTPError, e:
@@ -214,7 +214,7 @@ class Kortforsyningen:
         :rtype: QString
         """
         # noinspection PyTypeChecker,PyArgumentList,PyCallByClass
-        return QCoreApplication.translate('Kortforsyningen', message)
+        return QCoreApplication.translate('Datafordeler', message)
 
     # Taken directly from menu_from_project
     def getFirstChildByTagNameValue(self, elt, tagName, key, value):
@@ -296,11 +296,11 @@ class Kortforsyningen:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/Kortforsyningen/icon.png'
+        icon_path = ':/plugins/Datafordeler/icon.png'
 
         self.menu = QMenu(self.iface.mainWindow().menuBar())
-        self.menu.setObjectName(self.tr('Kortforsyningen'))
-        self.menu.setTitle(self.tr('Kortforsyningen'))
+        self.menu.setObjectName(self.tr('Datafordeler'))
+        self.menu.setTitle(self.tr('Datafordeler'))
 
         if self.error_menu:
             self.menu.addAction(self.error_menu)
@@ -312,7 +312,7 @@ class Kortforsyningen:
             theme_menu = QMenu()
             theme_menu.setObjectName(filename)
             theme_menu.setTitle(self.tr(category['name']))
-            project = QgisProject(self.kf_path + filename)
+            project = QgisProject(self.path + filename)
             helper = lambda _f, _layer: lambda: self.open_layer(_f, _layer)
             for layer in project.layers():
                 action = QAction(
@@ -355,7 +355,7 @@ class Kortforsyningen:
         )
 
     def settings_dialog(self):
-        dlg = KFSettingsDialog(self.settings)
+        dlg = SettingsDialog(self.settings)
         dlg.setWidgetsFromValues()
         dlg.show()
         result = dlg.exec_()
@@ -364,7 +364,7 @@ class Kortforsyningen:
             del dlg
 
     def about_dialog(self):
-        dlg = KFAboutDialog()
+        dlg = AboutDialog()
         dlg.webView.setUrl(QUrl(self.local_about_file))
         dlg.webView.urlChanged
         dlg.show()
