@@ -39,8 +39,8 @@ from plugin_about import AboutDialog
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
 
 from project import QgisProject
-CONFIG_FILE_URL = 'http://labs-develop.septima.dk/qgis-dfd-knap/themes.json'
-ABOUT_FILE_URL = 'http://labs-develop.septima.dk/qgis-dfd-knap/about.html'
+CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/themes.json'
+ABOUT_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/about.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 
