@@ -36,12 +36,14 @@ from urllib2 import urlopen, URLError, HTTPError
 import json
 import codecs
 from plugin_about import AboutDialog
+from plugin_aboutDatafordeler import AboutDialogDatafordeler
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
 
 from project import QgisProject
 CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/themes.json'
 ABOUT_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/about.html'
 ABOUTSEPTIMA_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutSeptima.html'
+ABOUTDATAFORDELER_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutDatafordeler.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 
@@ -72,6 +74,7 @@ class Datafordeler:
         self.local_config_file = self.path + 'themes.json'
         self.local_about_file = self.path + 'about.html'
         self.local_aboutSeptima_file = self.path + 'aboutSeptima.html'
+        self.local_aboutDatafordeler_file = self.path + 'aboutDatafordeler.html'
 
         # An error menu object, set to None.
         self.error_menu = None
@@ -83,6 +86,8 @@ class Datafordeler:
         self.read_about_page()
 
         self.read_aboutseptima_page()
+
+        self.read_aboutdatafordeler_page()
 
         # Check if we have a version, and act accordingly
         self.read_config()
@@ -148,6 +153,31 @@ class Datafordeler:
                     )
                 return
             self.write_aboutseptima_file(about)
+
+    def read_aboutdatafordeler_page(self):
+        load_remote_about = True
+
+        local_file_exists = os.path.exists(self.local_aboutDatafordeler_file)
+        if local_file_exists:
+            local_file_time = datetime.datetime.fromtimestamp(
+                os.path.getmtime(self.local_aboutDatafordeler_file)
+            )
+            load_remote_about = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
+
+        if load_remote_about:
+            try:
+                response = urlopen(ABOUTDATAFORDELER_FILE_URL)
+                about = response.read()
+            except Exception, e:
+                log_message('No contact to the configuration at ' + ABOUTDATAFORDELER_FILE_URL + '. Exception: ' + str(e))
+                if not local_file_exists:
+                    self.error_menu = QAction(
+                        self.tr('No contact to Datafordeleren'),
+                        self.iface.mainWindow()
+                    )
+                return
+            self.write_aboutdatafordeler_file(about)
+
     def write_about_file(self, content):
         if os.path.exists(self.local_about_file):
             os.remove(self.local_about_file)
@@ -161,6 +191,15 @@ class Datafordeler:
 
         with codecs.open(self.local_aboutSeptima_file, 'w') as f:
             f.write(content)
+
+    def write_aboutdatafordeler_file(self, content):
+        if os.path.exists(self.local_aboutDatafordeler_file):
+            os.remove(self.local_aboutDatafordeler_file)
+
+        with codecs.open(self.local_aboutDatafordeler_file, 'w') as f:
+            f.write(content)
+
+
     def read_config(self):
         config = None
         load_remote_config = True
@@ -403,7 +442,16 @@ class Datafordeler:
         self.aboutSeptima_menu.triggered.connect(self.about_dialogSeptima)
         self.menu.addAction(self.aboutSeptima_menu)
 
+        # Add credits to Datafordeleren
+        self.aboutDatafordeler_menu = QAction(
             QIcon(icon_path_datafordeler),
+            self.tr('Powered by Datafordeler'),
+            self.iface.mainWindow()
+        )
+        self.settings_menu.setObjectName(self.tr('Powered by Datafordeler'))
+        self.aboutDatafordeler_menu.triggered.connect(self.about_dialogDatafordeler)
+        self.menu.addAction(self.aboutDatafordeler_menu)
+
     def settings_dialog(self):
         dlg = SettingsDialog(self.settings)
         dlg.setWidgetsFromValues()
@@ -432,6 +480,17 @@ class Datafordeler:
 
         if result == 1:
             del dlg
+
+    def about_dialogDatafordeler(self):
+        dlg = AboutDialogDatafordeler()
+        dlg.webView.setUrl(QUrl(self.local_aboutDatafordeler_file))
+        dlg.webView.urlChanged
+        dlg.show()
+        result = dlg.exec_()
+
+        if result == 1:
+            del dlg
+
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
         # Remove settings if user not asked to keep them
