@@ -36,6 +36,7 @@ from urllib2 import urlopen, URLError, HTTPError
 import json
 import codecs
 from plugin_about import AboutDialog
+from plugin_aboutSeptima import AboutDialogSeptima
 from plugin_aboutDatafordeler import AboutDialogDatafordeler
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
 
