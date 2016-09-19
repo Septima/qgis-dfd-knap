@@ -398,7 +398,7 @@ class Datafordeler:
             del dlg
 
     def about_dialogSeptima(self):
-        webbrowser.open_new("www.septima.dk")
+        webbrowser.open_new("http://www.septima.dk")
 
 
     def about_dialogDatafordeler(self):
