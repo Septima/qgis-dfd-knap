@@ -1,0 +1,9 @@
+{
+	"version": 2,
+	"categories": [
+		{"url": "https://github.com/Septima/qgis-dfd-knap/blob/master/Dagi_wms.qgs", "name": "Danmarks Administrative Geografiske Inddeling, DAGI, WMS"},
+		{"url": "https://github.com/Septima/qgis-dfd-knap/blob/master/Dagi_wfs.qgs", "name": "Danmarks Administrative Geografiske Inddeling, DAGI, WFS"},
+		{"url": "https://github.com/Septima/qgis-dfd-knap/blob/master/Hoejdemodel.qgs", "name": "Danmarks Højdemodel"},
+		{"url": "https://github.com/Septima/qgis-dfd-knap/blob/master/Skaermkort.qgs", "name": "Skærmkort"}
+	]
+}
