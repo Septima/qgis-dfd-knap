@@ -296,7 +296,13 @@ class Datafordeler:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/Datafordeler/icon.png'
+        icon_path = '/resources'
+        icon_path_settings = '/resources/icon_settings.png'
+        icon_path_septima = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_settings.png'
+        icon_path_septima = '/resources/icon_septima.png'
+        icon_path_septima = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_septima.png'
+        icon_path_datafordeler = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_datafordeler.png'
+
 
         self.menu = QMenu(self.iface.mainWindow().menuBar())
         self.menu.setObjectName(self.tr('Datafordeler'))
@@ -332,7 +338,7 @@ class Datafordeler:
 
         # Add settings
         self.settings_menu = QAction(
-            QIcon(icon_path),
+            QIcon(icon_path_settings),
             self.tr('Settings'),
             self.iface.mainWindow()
         )
@@ -354,6 +360,8 @@ class Datafordeler:
             self.iface.firstRightStandardMenu().menuAction(), self.menu
         )
 
+            QIcon(icon_path_septima),
+            QIcon(icon_path_datafordeler),
     def settings_dialog(self):
         dlg = SettingsDialog(self.settings)
         dlg.setWidgetsFromValues()
