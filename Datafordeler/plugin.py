@@ -36,15 +36,12 @@ from urllib2 import urlopen, URLError, HTTPError
 import json
 import codecs
 from plugin_about import AboutDialog
-from plugin_aboutSeptima import AboutDialogSeptima
-from plugin_aboutDatafordeler import AboutDialogDatafordeler
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
+import webbrowser
 
 from project import QgisProject
 CONFIG_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/themes.json'
 ABOUT_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/about.html'
-ABOUTSEPTIMA_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutSeptima.html'
-ABOUTDATAFORDELER_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutDatafordeler.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 
@@ -74,8 +71,6 @@ class Datafordeler:
 
         self.local_config_file = self.path + 'themes.json'
         self.local_about_file = self.path + 'about.html'
-        self.local_aboutSeptima_file = self.path + 'aboutSeptima.html'
-        self.local_aboutDatafordeler_file = self.path + 'aboutDatafordeler.html'
 
         # An error menu object, set to None.
         self.error_menu = None
@@ -85,10 +80,6 @@ class Datafordeler:
 
         # Read the about page
         self.read_about_page()
-
-        self.read_aboutseptima_page()
-
-        self.read_aboutdatafordeler_page()
 
         # Check if we have a version, and act accordingly
         self.read_config()
@@ -131,53 +122,6 @@ class Datafordeler:
                 return
             self.write_about_file(about)
 
-    def read_aboutseptima_page(self):
-        load_remote_about = True
-
-        local_file_exists = os.path.exists(self.local_aboutSeptima_file)
-        if local_file_exists:
-            local_file_time = datetime.datetime.fromtimestamp(
-                os.path.getmtime(self.local_aboutSeptima_file)
-            )
-            load_remote_about = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
-
-        if load_remote_about:
-            try:
-                response = urlopen(ABOUTSEPTIMA_FILE_URL)
-                about = response.read()
-            except Exception, e:
-                log_message('No contact to the configuration at ' + ABOUTSEPTIMA_FILE_URL + '. Exception: ' + str(e))
-                if not local_file_exists:
-                    self.error_menu = QAction(
-                        self.tr('No contact to Datafordeleren'),
-                        self.iface.mainWindow()
-                    )
-                return
-            self.write_aboutseptima_file(about)
-
-    def read_aboutdatafordeler_page(self):
-        load_remote_about = True
-
-        local_file_exists = os.path.exists(self.local_aboutDatafordeler_file)
-        if local_file_exists:
-            local_file_time = datetime.datetime.fromtimestamp(
-                os.path.getmtime(self.local_aboutDatafordeler_file)
-            )
-            load_remote_about = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
-
-        if load_remote_about:
-            try:
-                response = urlopen(ABOUTDATAFORDELER_FILE_URL)
-                about = response.read()
-            except Exception, e:
-                log_message('No contact to the configuration at ' + ABOUTDATAFORDELER_FILE_URL + '. Exception: ' + str(e))
-                if not local_file_exists:
-                    self.error_menu = QAction(
-                        self.tr('No contact to Datafordeleren'),
-                        self.iface.mainWindow()
-                    )
-                return
-            self.write_aboutdatafordeler_file(about)
 
     def write_about_file(self, content):
         if os.path.exists(self.local_about_file):
@@ -185,21 +129,6 @@ class Datafordeler:
 
         with codecs.open(self.local_about_file, 'w') as f:
             f.write(content)
-
-    def write_aboutseptima_file(self, content):
-        if os.path.exists(self.local_aboutSeptima_file):
-            os.remove(self.local_aboutSeptima_file)
-
-        with codecs.open(self.local_aboutSeptima_file, 'w') as f:
-            f.write(content)
-
-    def write_aboutdatafordeler_file(self, content):
-        if os.path.exists(self.local_aboutDatafordeler_file):
-            os.remove(self.local_aboutDatafordeler_file)
-
-        with codecs.open(self.local_aboutDatafordeler_file, 'w') as f:
-            f.write(content)
-
 
     def read_config(self):
         config = None
@@ -368,11 +297,7 @@ class Datafordeler:
 
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
-
-        icon_path = '/resources'
         icon_path_settings = '/resources/icon_settings.png'
-        icon_path_septima = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_settings.png'
-        icon_path_septima = '/resources/icon_septima.png'
         icon_path_septima = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_septima.png'
         icon_path_datafordeler = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_datafordeler.png'
 
@@ -473,24 +398,12 @@ class Datafordeler:
             del dlg
 
     def about_dialogSeptima(self):
-        dlg = AboutDialogSeptima()
-        dlg.webView.setUrl(QUrl(self.local_aboutSeptima_file))
-        dlg.webView.urlChanged
-        dlg.show()
-        result = dlg.exec_()
+        webbrowser.open_new("www.septima.dk")
 
-        if result == 1:
-            del dlg
 
     def about_dialogDatafordeler(self):
-        dlg = AboutDialogDatafordeler()
-        dlg.webView.setUrl(QUrl(self.local_aboutDatafordeler_file))
-        dlg.webView.urlChanged
-        dlg.show()
-        result = dlg.exec_()
+        webbrowser.open_new("http://datafordeler.dk/")
 
-        if result == 1:
-            del dlg
 
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
