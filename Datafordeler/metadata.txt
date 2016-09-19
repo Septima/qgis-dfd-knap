@@ -18,11 +18,11 @@ email= kontakt@septima.dk
 
 about=
     This plugin makes it easy to use the services from Datafordeleren.
-    A new menu is added to QGIS which contains the services ordered by category.
+    A new menu is added to QGIS which contains the Datafordeler-services ordered by category.
+    In order to use the plugin, a Datafordeler user account is required. If you already have an account, please enter your
+    username and password in the plugin setting dialogue. If you do not have an account, please follow the link in the
+    setting dialogue and create one.
     The plugin is developed by Septima.
-    In order to use the plugin, a Datafordeler user account is required.
-    If you already have an account, please enter your username and password in the plugin setting dialogue .
-    If you do not have an account, please follow the link in the setting dialogue and create one.
     <p></p>
     <img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
 
@@ -33,7 +33,7 @@ about=
 
 # Uncomment the following line and add your changelog:
 changelog=Changelog:
-2016-09: First release, version 0.1
+2016-09-19: First release, version 0.1
 
 # Tags are comma separated with spaces allowed
 tags=Danmark, Denmark, frie data, open data, dansk, Danish, Datafordeleren, Map supply, WMS, vector
@@ -42,7 +42,7 @@ homepage=https://github.com/Septima/qgis-dfd-knap
 tracker=https://github.com/Septima/qgis-dfd-knap/issues
 repository=https://github.com/Septima/qgis-dfd-knap
 category=Plugins
-icon=icon.png
+icon=resources/icon_datafordeler.png
 # experimental flag
 experimental=False
 
