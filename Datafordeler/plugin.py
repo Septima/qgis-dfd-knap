@@ -41,8 +41,8 @@ from plugin_aboutDatafordeler import AboutDialogDatafordeler
 from PyQt4.QtCore import QSettings, QTranslator, qVersion
 
 from project import QgisProject
-CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/themes.json'
-ABOUT_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/about.html'
+CONFIG_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/themes.json'
+ABOUT_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/about.html'
 ABOUTSEPTIMA_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutSeptima.html'
 ABOUTDATAFORDELER_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutDatafordeler.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
