@@ -31,7 +31,7 @@ class KortForsyningenDialogTest(unittest.TestCase):
 
     def test_icon_png(self):
         """Test we can click OK."""
-        path = ':/plugins/KortForsyningen/icon.png'
+        path = ':/plugins/Datafordeler/resources/icon_septima.png'
         icon = QIcon(path)
         self.assertFalse(icon.isNull())
 
