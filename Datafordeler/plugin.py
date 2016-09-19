@@ -41,6 +41,7 @@ from PyQt4.QtCore import QSettings, QTranslator, qVersion
 from project import QgisProject
 CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/themes.json'
 ABOUT_FILE_URL = 'http://labs.septima.dk/qgis-dfd-knap/about.html'
+ABOUTSEPTIMA_FILE_URL = 'https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/aboutSeptima.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 
@@ -70,6 +71,7 @@ class Datafordeler:
 
         self.local_config_file = self.path + 'themes.json'
         self.local_about_file = self.path + 'about.html'
+        self.local_aboutSeptima_file = self.path + 'aboutSeptima.html'
 
         # An error menu object, set to None.
         self.error_menu = None
@@ -79,6 +81,8 @@ class Datafordeler:
 
         # Read the about page
         self.read_about_page()
+
+        self.read_aboutseptima_page()
 
         # Check if we have a version, and act accordingly
         self.read_config()
@@ -121,6 +125,29 @@ class Datafordeler:
                 return
             self.write_about_file(about)
 
+    def read_aboutseptima_page(self):
+        load_remote_about = True
+
+        local_file_exists = os.path.exists(self.local_aboutSeptima_file)
+        if local_file_exists:
+            local_file_time = datetime.datetime.fromtimestamp(
+                os.path.getmtime(self.local_aboutSeptima_file)
+            )
+            load_remote_about = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
+
+        if load_remote_about:
+            try:
+                response = urlopen(ABOUTSEPTIMA_FILE_URL)
+                about = response.read()
+            except Exception, e:
+                log_message('No contact to the configuration at ' + ABOUTSEPTIMA_FILE_URL + '. Exception: ' + str(e))
+                if not local_file_exists:
+                    self.error_menu = QAction(
+                        self.tr('No contact to Datafordeleren'),
+                        self.iface.mainWindow()
+                    )
+                return
+            self.write_aboutseptima_file(about)
     def write_about_file(self, content):
         if os.path.exists(self.local_about_file):
             os.remove(self.local_about_file)
@@ -128,6 +155,12 @@ class Datafordeler:
         with codecs.open(self.local_about_file, 'w') as f:
             f.write(content)
 
+    def write_aboutseptima_file(self, content):
+        if os.path.exists(self.local_aboutSeptima_file):
+            os.remove(self.local_aboutSeptima_file)
+
+        with codecs.open(self.local_aboutSeptima_file, 'w') as f:
+            f.write(content)
     def read_config(self):
         config = None
         load_remote_config = True
@@ -360,7 +393,16 @@ class Datafordeler:
             self.iface.firstRightStandardMenu().menuAction(), self.menu
         )
 
+        # Add credits to Septima
+        self.aboutSeptima_menu = QAction(
             QIcon(icon_path_septima),
+            self.tr('Developed by Septima'),
+            self.iface.mainWindow()
+        )
+        self.settings_menu.setObjectName(self.tr('Developed by Septima'))
+        self.aboutSeptima_menu.triggered.connect(self.about_dialogSeptima)
+        self.menu.addAction(self.aboutSeptima_menu)
+
             QIcon(icon_path_datafordeler),
     def settings_dialog(self):
         dlg = SettingsDialog(self.settings)
@@ -381,6 +423,15 @@ class Datafordeler:
         if result == 1:
             del dlg
 
+    def about_dialogSeptima(self):
+        dlg = AboutDialogSeptima()
+        dlg.webView.setUrl(QUrl(self.local_aboutSeptima_file))
+        dlg.webView.urlChanged
+        dlg.show()
+        result = dlg.exec_()
+
+        if result == 1:
+            del dlg
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
         # Remove settings if user not asked to keep them
