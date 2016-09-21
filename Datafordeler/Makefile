@@ -1,11 +1,11 @@
 #/***************************************************************************
-# Kortforsyningen
+# Datafordeler
 #
-# Nem adgang til Kortforsyningens wms
+# Nem adgang til services fra Datafordeler
 #							 -------------------
-#		begin				: 2015-05-01
+#		begin				: 2016-09-20
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2015 by Septima P/S
+#		copyright			: (C) 2016 by Septima P/S
 #		email				: kontakt@septima.dk
 # ***************************************************************************/
 #
@@ -38,26 +38,26 @@ LRELEASE = lrelease
 # translation
 SOURCES = \
 	__init__.py \
-	kortforsyningen.py \
-	kortforsyningen_settings.py \
-	kortforsyningen_about.py \
+	plugin.py \
+	plugin_settings.py \
+	plugin_about.py \
 	project.py
 
 
-PLUGINNAME = Kortforsyningen
+PLUGINNAME = Datafordeler
 
 PY_FILES = \
-	kortforsyningen.py \
-	kortforsyningen_settings.py \
-	kortforsyningen_about.py \
+	plugin.py \
+	plugin_settings.py \
+	plugin_about.py \
 	project.py \
 	__init__.py
 
 UI_FILES = \
-	kf_settings.ui \
-	aboutKortforsyningen.ui
+	settings.ui \
+	about.ui
 
-EXTRAS = icon.png metadata.txt
+EXTRAS = resources/icon_datafordeler.png metadata.txt
 
 PLUGIN = qgissettingmanager
 
