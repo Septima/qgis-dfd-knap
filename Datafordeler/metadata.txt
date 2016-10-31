@@ -17,7 +17,16 @@ author= Septima
 email= kontakt@septima.dk
 
 about=
-    This plugin makes it easy to use the services from Datafordeleren. A new menu is added to QGIS which contains the Datafordeler-services ordered by category. In order to use the plugin, a Datafordeler user account is required. If you already have an account, please enter your username and password in the plugin setting dialogue. If you do not have an account, please follow the link in the setting dialogue and create one.
+    <u>In English:</u>
+    This plugin makes it easy to use the services from Datafordeleren (Danish data). A new menu, 'Datafordeler', is added to QGIS which contains the Datafordeler-services ordered by category.
+    In order to use the plugin, a Datafordeler service user (in Danish 'Tjenestebruger') is required. If you already have a service user to Datafordeler, please enter your username and password in the plugin setting dialogue.
+    If you do not have an account, please follow the link in the setting dialogue and create one. <a href="http://datafordeler.dk/vejledninger/brugeroprettelse/" >Read more about creating a service user login</a>
+    <p></p>
+    <u>In Danish:</u>
+    Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS. En ny menu, 'Datafordeler', bliver tilføjet til QGIS. Denne menu indeholder data fordelt på kategorier.
+    Det er nødvendigt at have en tjenestebruger til Datafordeleren. Læs mere om at oprette en tjenestebruger på http://datafordeler.dk/vejledninger/brugeroprettelse/.
+    Tjenestebrugernavn og kodeord indtastes i indstillingsdialogen. Klik på linket i indstillingsdialogen hvis du ønsker at oprette en tjenestebruger (gratis).
+    <p></p>
     This plugin is developed by Septima
     <img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
 
