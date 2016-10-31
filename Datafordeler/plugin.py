@@ -299,7 +299,6 @@ class Datafordeler:
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
         icon_path_settings = '/resources/icon_settings.png'
         icon_path_septima = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_septima.png'
-        icon_path_datafordeler = QFileInfo(QgsApplication.qgisUserDbFilePath()).path() +'/python/plugins/Datafordeler/resources/icon_datafordeler.png'
 
 
         self.menu = QMenu(self.iface.mainWindow().menuBar())
@@ -368,15 +367,6 @@ class Datafordeler:
         self.aboutSeptima_menu.triggered.connect(self.about_dialogSeptima)
         self.menu.addAction(self.aboutSeptima_menu)
 
-        # Add credits to Datafordeleren
-        self.aboutDatafordeler_menu = QAction(
-            QIcon(icon_path_datafordeler),
-            self.tr('Powered by Datafordeler'),
-            self.iface.mainWindow()
-        )
-        self.settings_menu.setObjectName(self.tr('Powered by Datafordeler'))
-        self.aboutDatafordeler_menu.triggered.connect(self.about_dialogDatafordeler)
-        self.menu.addAction(self.aboutDatafordeler_menu)
 
     def settings_dialog(self):
         dlg = SettingsDialog(self.settings)
@@ -400,9 +390,6 @@ class Datafordeler:
     def about_dialogSeptima(self):
         webbrowser.open_new("http://www.septima.dk")
 
-
-    def about_dialogDatafordeler(self):
-        webbrowser.open_new("http://datafordeler.dk/")
 
 
     def unload(self):
