@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/Kortforsyningen" >
-        <file>icon.png</file>
+    <qresource prefix="/plugins/Datafordeler" >
+        <file>resources/icon_datafordeler.png</file>
     </qresource>
 </RCC>
