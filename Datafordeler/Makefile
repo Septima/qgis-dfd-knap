@@ -25,7 +25,6 @@
 
 #Add iso code for any locales you want to support here (space separated)
 # default is no locales
-# LOCALES = af
 LOCALES = da
 
 # If locales are enabled, set the name of the lrelease binary on your system. If
@@ -82,8 +81,8 @@ default: compile
 
 compile: $(COMPILED_RESOURCE_FILES)
 
-%_rc.py : %.qrc $(RESOURCES_SRC)
-	pyrcc4 -o $*_rc.py  $<
+%.py : %.qrc $(RESOURCES_SRC)
+	pyrcc4 -o $*.py  $<
 
 %.qm : %.ts
 	$(LRELEASE) $<
@@ -121,7 +120,6 @@ deploy: compile doc transcompile
 	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
-	cp -vfr $(PLUGIN) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/$(PLUGIN)
 
 # The dclean target removes compiled python files from plugin directory
 # also deletes any .git entry
