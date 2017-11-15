@@ -260,7 +260,7 @@ class Datafordeler:
                 self.tr('Error'), self.tr('Please, fill out username and password')
             )
             settings_btn = QPushButton(widget)
-            settings_btn.setText(self.tr('Settings'))
+            settings_btn.setText(self.tr('SettingsXX'))
             settings_btn.pressed.connect(self.settings_dialog)
             widget.layout().addWidget(settings_btn)
             self.iface.messageBar().pushWidget(widget, QgsMessageBar.CRITICAL)
@@ -337,7 +337,7 @@ class Datafordeler:
         # Add settings
         self.settings_menu = QAction(
             QIcon(icon_path_settings),
-            self.tr('Settings'),
+            self.tr('Settings'), ## Det er denne der skal oversættes
             self.iface.mainWindow()
         )
         self.settings_menu.setObjectName(self.tr('Settings'))

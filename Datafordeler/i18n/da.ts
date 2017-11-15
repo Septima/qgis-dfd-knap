@@ -23,7 +23,7 @@
     <message>
         <location filename="plugin.py" line="259"/>
         <source>Please, fill out username and password</source>
-        <translation>Udfyld brugernavn og kodeord</translation>
+        <translation>Udfyld brugernavn (husk det skal være tjenestebrugernavn) og kodeord</translation>
     </message>
     <message>
         <location filename="plugin.py" line="343"/>
@@ -39,6 +39,16 @@
         <location filename="plugin.py" line="307"/>
         <source>Datafordeler</source>
         <translation>Datafordeler</translation>
+    </message>
+    <message>
+        <location filename="plugin.py" line="338"/>
+        <source>Settings</source>
+        <translation>Indstillinger</translation>
+    </message>
+    <message>
+        <location filename="plugin.py" line="348"/>
+        <source>About the plugin</source>
+        <translation>Om pluginet</translation>
     </message>
     <message>
         <location filename="plugin.py" line="353"/>

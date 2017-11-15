@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/plugins/Datafordeler" >
         <file>resources/icon_datafordeler.png</file>
+        <file>resources/icon_about.png</file>
+        <file>resources/icon_septima.png</file>
+        <file>resources/icon_settings.png</file>
     </qresource>
 </RCC>
