@@ -4,105 +4,105 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Stednavne">
       <customproperties/>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Bygning20171115111223361" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Bygning">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Bygning20171115111223361" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Bygning (vises op til skala 1:50.000)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Bebyggelse20171115112221806" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Bebyggelse">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Bebyggelse20171115112221806" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Bebyggelse">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Checked" id="Vej20171115112328611" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Vej">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Vej20171115112328611" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Vej">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Checked" id="Rute20171115112310548" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Rute">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Rute20171115112310548" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Rute">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Standsningssted20171115112318086" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Standsningssted">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Standsningssted20171115112318086" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Standsningssted">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Checked" id="Jernbane20171115112254039" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Jernbane">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Jernbane20171115112254039" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Jernbane">
         <customproperties>
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Sevaerdighed20171115112312668" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Seværdighed">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Sevaerdighed20171115112312668" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Seværdighed">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Lufthavn20171115112258437" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Lufthavn">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Lufthavn20171115112258437" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Lufthavn ">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Campingplads20171115112229472" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Campingplads">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Campingplads20171115112229472" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Campingplads">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Begravelsesplads20171115112224006" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Begravelsesplads">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Begravelsesplads20171115112224006" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Begravelsesplads">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Idraetsanlaeg20171115112252118" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Idrætsanlæg">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Idraetsanlaeg20171115112252118" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Idrætsanlæg">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Friluftsbad20171115112247802" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Friluftsbad">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Friluftsbad20171115112247802" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Friluftsbad">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Havnebassin20171115112250116" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Havnebassin">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Havnebassin20171115112250116" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Havnebassin">
         <customproperties>
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Terraenkontur20171115112320672" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Terraenkontur">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Terraenkontur20171115112320672" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Terraenkontur">
         <customproperties>
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Vandloeb20171115112326025" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Vandløb">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Vandloeb20171115112326025" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Vandløb">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Soe20171115112314552" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Sø">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Soe20171115112314552" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Sø">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="UrentFarvand20171115112323554" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="UrentFarvand">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="UrentFarvand20171115112323554" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="UrentFarvand">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Farvand20171115112238853" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Farvand">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Farvand20171115112238853" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Farvand">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Restriktionsareal20171115112308244" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Restriktionsareal">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Restriktionsareal20171115112308244" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Restriktionsareal">
         <customproperties>
           <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Naturareal20171115112300674" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Naturareal">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Naturareal20171115112300674" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Naturareal">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Landskabsform20171115112256402" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Landskabsform">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Landskabsform20171115112256402" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Landskabsform">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Fortidsminde20171115112245584" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Fortidsminde">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Fortidsminde20171115112245584" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Fortidsminde (vises op til skala 1:200.000)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Navigationsanlaeg20171115112303773" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Navigationsanlæg">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Navigationsanlaeg20171115112303773" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="Navigationsanlæg ">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="FaergerutePunkt20171115112235985" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="FærgerutePunkt">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="FaergerutePunkt20171115112235985" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="FærgerutePunkt">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="FaergeruteLinje20171115112233470" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="FærgeruteLinje">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="FaergeruteLinje20171115112233470" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="FærgeruteLinje">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="AndenTopografiPunkt20171115112218306" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="AndenTopografiPunkt">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="AndenTopografiPunkt20171115112218306" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="AndenTopografiPunkt">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="AndenTopografiFlade20171115111546114" source="user={{kf_username}} restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="AndenTopografiFlade">
+      <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="AndenTopografiFlade20171115111546114" source="user='{{kf_username}}' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table=&quot;&quot; sql=" name="AndenTopografiFlade">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="inf" maximumScale="50000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Bygning20171115111223361</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Bygning</layername>
+      <layername>Bygning (vises op til skala 1:50.000)</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -219,7 +219,7 @@
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Bebyggelse20171115112221806</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -343,9 +343,9 @@
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Vej20171115112328611</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -628,9 +628,9 @@
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Rute20171115112310548</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1104,9 +1104,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Standsningssted20171115112318086</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1270,9 +1270,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMax" value="200000"/>
         <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/scaleVisibility" value="true"/>
         <property key="labeling/shadowBlendMode" value="6"/>
         <property key="labeling/shadowColorB" value="0"/>
         <property key="labeling/shadowColorG" value="0"/>
@@ -1407,9 +1407,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Jernbane20171115112254039</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1727,9 +1727,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Sevaerdighed20171115112312668</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1819,8 +1819,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{9c7800d1-ff2b-4b91-8430-fe3196be5ea1}">
-          <rule filter=" &quot;sevaerdighedstype&quot; &lt;> 'andenSeværdighed' " key="{59fd93a6-17bf-47a6-bb46-1b3f1269e2b8}">
+        <rules key="{d652f6b4-f8b4-44c2-93ed-c3d0a79ebfe6}">
+          <rule filter=" &quot;sevaerdighedstype&quot; &lt;> 'andenSeværdighed' " key="{fad17b6b-95b4-409a-9baf-fc41d2953df2}">
             <settings>
               <text-style fontItalic="0" fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="1" textColor="226,76,119,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="8.25" fieldName="sevaerdighedstype" namedStyle="Normal" fontWordSpacing="0" useSubstitutions="0">
                 <substitutions/>
@@ -1830,7 +1830,7 @@ def my_form_open(dialog, layer, feature):
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
               <shadow shadowOffsetMapUnitScale="0,0,0,0,0,0" shadowOffsetGlobal="1" shadowRadiusUnits="1" shadowTransparency="30" shadowColor="0,0,0,255" shadowUnder="0" shadowScale="100" shadowOffsetDist="1" shadowDraw="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowRadiusMapUnitScale="0,0,0,0,0,0" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetUnits="1"/>
               <placement repeatDistanceUnit="1" placement="0" maxCurvedCharAngleIn="25" repeatDistance="0" distInMapUnits="0" labelOffsetInMapUnits="1" xOffset="0" distMapUnitScale="0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" preserveRotation="1" repeatDistanceMapUnitScale="0,0,0,0,0,0" centroidWhole="0" priority="5" yOffset="0" offsetType="0" placementFlags="10" centroidInside="0" dist="0" angleOffset="0" maxCurvedCharAngleOut="-25" fitInPolygonOnly="0" quadOffset="4" labelOffsetMapUnitScale="0,0,0,0,0,0"/>
-              <rendering fontMinPixelSize="3" scaleMax="10000000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="0" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
+              <rendering fontMinPixelSize="3" scaleMax="50000" fontMaxPixelSize="10000" scaleMin="1" upsidedownLabels="0" limitNumLabels="0" obstacle="1" obstacleFactor="1" scaleVisibility="1" fontLimitPixelSize="0" mergeLines="0" obstacleType="0" labelPerPart="0" zIndex="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0"/>
               <data-defined>
                 <Italic expr="" field="sevaerdighedstype" active="true" useExpr="false"/>
               </data-defined>
@@ -2055,13 +2055,13 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Lufthavn20171115112258437</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Lufthavn</layername>
+      <layername>Lufthavn </layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -2241,9 +2241,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Campingplads20171115112229472</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2316,7 +2316,7 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+          <symbol alpha="0.839216" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="158,190,0,255"/>
@@ -2417,9 +2417,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="inf" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Begravelsesplads20171115112224006</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2538,9 +2538,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="inf" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Idraetsanlaeg20171115112252118</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2664,9 +2664,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Friluftsbad20171115112247802</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2894,9 +2894,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Havnebassin20171115112250116</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3102,9 +3102,9 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Terraenkontur20171115112320672</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3315,7 +3315,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Vandloeb20171115112326025</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3430,7 +3430,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Soe20171115112314552</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3591,7 +3591,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>UrentFarvand20171115112323554</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3702,7 +3702,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Farvand20171115112238853</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3808,7 +3808,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Restriktionsareal20171115112308244</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4073,7 +4073,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Naturareal20171115112300674</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4184,7 +4184,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Landskabsform20171115112256402</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4293,13 +4293,13 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="50000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Fortidsminde20171115112245584</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Fortidsminde</layername>
+      <layername>Fortidsminde (vises op til skala 1:200.000)</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -4456,13 +4456,13 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="1" maximumScale="200000" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Navigationsanlaeg20171115112303773</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Navigationsanlæg</layername>
+      <layername>Navigationsanlæg </layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -4770,7 +4770,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>FaergerutePunkt20171115112235985</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4875,7 +4875,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>FaergeruteLinje20171115112233470</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4990,7 +4990,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>AndenTopografiPunkt20171115112218306</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5095,7 +5095,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>AndenTopografiFlade20171115111546114</id>
-      <datasource>user={{kf_username}} password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
+      <datasource>user='{{kf_username}}' password='fgd4Septima' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://services.datafordeler.dk/STEDNAVN/STEDNAVNE_BEARBEJDET_GML3SFP/1/wfs?username={{kf_username}}&amp;password={{kf_password}}&amp;namespace=xmlns(sn=http://data.gov.dk/schemas/stednavne/2/gml3sfp)' version='1.0.0' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
