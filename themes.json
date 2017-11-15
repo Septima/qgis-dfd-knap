@@ -4,5 +4,6 @@
 		{"url": "https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/Dagi_wms.qgs", "name": "Danmarks Administrative Geografiske Inddeling, DAGI, WMS"},
 		{"url": "https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/Hoejdemodel.qgs", "name": "Danmarks Højdemodel"},
 		{"url": "https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/Skaermkort.qgs", "name": "Skærmkort"}
+		{"url": "https://raw.githubusercontent.com/Septima/qgis-dfd-knap/master/stednavne_wfs.qgs", "name": "Stednavne"}
 	]
 }
