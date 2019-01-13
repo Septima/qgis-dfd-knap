@@ -10,18 +10,15 @@ class Settings(SettingManager):
     settings_updated = QtCore.pyqtSignal()
 
     def __init__(self):
-        SettingManager.__init__(self, 'Kortforsyningen')
+        SettingManager.__init__(self, 'Datafordeler')
         self.add_setting(String('username', Scope.Global, ''))
         self.add_setting(String('password', Scope.Global, ''))
-        ##self.add_setting(Bool('use_custom_file', Scope.Global, False))
-        ##self.add_setting(String('custom_qlr_file', Scope.Global, ''))
-        ##self.add_setting(Bool('only_background', Scope.Global, False))
         path = QFileInfo(os.path.realpath(__file__)).path()
         dfd_path = path + '/dfd/'
         if not os.path.exists(dfd_path):
             os.makedirs(dfd_path)
             
-        self.add_setting(String('cache_path', Scope.Global, kf_path))
+        self.add_setting(String('cache_path', Scope.Global, dfd_path))
         self.add_setting(String('kf_qlr_url', Scope.Global, CONFIG_FILE_URL))
         
     def is_set(self):

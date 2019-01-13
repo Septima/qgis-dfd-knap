@@ -61,7 +61,7 @@ class Kortforsyningen(object):
         self.settings = Settings()
         self.settings.settings_updated.connect(self.reloadMenu)
         self.options_factory = OptionsFactory(self.settings)
-        self.options_factory.setTitle(self.tr('Kortforsyningen'))
+        self.options_factory.setTitle(self.tr('Datafordeler'))
         iface.registerOptionsWidgetFactory(self.options_factory)
         
         self.layer_locator_filter = LayerLocatorFilter()
@@ -92,13 +92,13 @@ class Kortforsyningen(object):
         self.createMenu()
         
     def show_kf_error(self):
-        message = self.tr('Check connection and click menu Settings -> Options - > Kortforsyningen -> OK')
-        self.iface.messageBar().pushMessage(self.tr( 'No contact to Kortforsyningen'), message, level=Qgis.Warning, duration=5)
+        message = self.tr('Check connection and click menu Settings -> Options - > Datafordeler -> OK')
+        self.iface.messageBar().pushMessage(self.tr( 'No contact to Datafordeler'), message, level=Qgis.Warning, duration=5)
         log_message(message)
 
     def show_kf_settings_warning(self):
-        message = self.tr('Username/Password not set or wrong. Select menu Settings -> Options - > Kortforsyningen')
-        self.iface.messageBar().pushMessage(self.tr('Kortforsyningen'), message, level=Qgis.Warning, duration=5)
+        message = self.tr('Username/Password not set or wrong. Select menu Settings -> Options - > Datafordeler')
+        self.iface.messageBar().pushMessage(self.tr('Datafordeler'), message, level=Qgis.Warning, duration=5)
         log_message(message)
 
     def createMenu(self):
@@ -111,8 +111,8 @@ class Kortforsyningen(object):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
         self.menu = QMenu(self.iface.mainWindow().menuBar())
-        self.menu.setObjectName(self.tr('Kortforsyningen'))
-        self.menu.setTitle(self.tr('Kortforsyningen'))
+        self.menu.setObjectName(self.tr('Datafordeler'))
+        self.menu.setTitle(self.tr('Datafordeler'))
         
         searchable_layers = []
 
