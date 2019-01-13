@@ -37,6 +37,7 @@ do
   fi
 done
 
+UPDATE=true
 if [ ${UPDATE} == true ]
 # retrieve all python files
 then
