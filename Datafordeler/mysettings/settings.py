@@ -17,9 +17,9 @@ class Settings(SettingManager):
         self.add_setting(String('custom_qlr_file', Scope.Global, ''))
         self.add_setting(Bool('only_background', Scope.Global, False))
         path = QFileInfo(os.path.realpath(__file__)).path()
-        kf_path = path + '/kf/'
-        if not os.path.exists(kf_path):
-            os.makedirs(kf_path)
+        dfd_path = path + '/dfd/'
+        if not os.path.exists(dfd_path):
+            os.makedirs(dfd_path)
             
         self.add_setting(String('cache_path', Scope.Global, kf_path))
         self.add_setting(String('kf_qlr_url', Scope.Global, CONFIG_FILE_URL))
