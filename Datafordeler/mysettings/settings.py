@@ -19,7 +19,7 @@ class Settings(SettingManager):
             os.makedirs(dfd_path)
             
         self.add_setting(String('cache_path', Scope.Global, dfd_path))
-        self.add_setting(String('kf_qlr_url', Scope.Global, CONFIG_FILE_URL))
+        self.add_setting(String('dfd_qlr_url', Scope.Global, CONFIG_FILE_URL))
         
     def is_set(self):
         if self.value('username') and self.value('password'):

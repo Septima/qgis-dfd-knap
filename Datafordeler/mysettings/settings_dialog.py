@@ -23,7 +23,7 @@ class ConfigOptionsPage(QgsOptionsPageWidget):
         layout.setMargin(0)
         self.setLayout(layout)
         layout.addWidget(self.config_widget)
-        self.setObjectName('kortforsyningenOptions')
+        self.setObjectName('datafordelerOptions')
 
     def apply(self):
         self.config_widget.accept_dialog()

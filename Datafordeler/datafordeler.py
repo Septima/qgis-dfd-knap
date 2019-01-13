@@ -91,20 +91,20 @@ class Kortforsyningen(object):
     def initGui(self):
         self.createMenu()
         
-    def show_kf_error(self):
+    def show_dfd_error(self):
         message = self.tr('Check connection and click menu Settings -> Options - > Datafordeler -> OK')
         self.iface.messageBar().pushMessage(self.tr( 'No contact to Datafordeler'), message, level=Qgis.Warning, duration=5)
         log_message(message)
 
-    def show_kf_settings_warning(self):
+    def show_dfd_settings_warning(self):
         message = self.tr('Username/Password not set or wrong. Select menu Settings -> Options - > Datafordeler')
         self.iface.messageBar().pushMessage(self.tr('Datafordeler'), message, level=Qgis.Warning, duration=5)
         log_message(message)
 
     def createMenu(self):
         self.config = Config(self.settings)
-        self.config.kf_con_error.connect(self.show_kf_error)
-        self.config.kf_settings_warning.connect(self.show_kf_settings_warning)
+        self.config.dfd_con_error.connect(self.show_dfd_error)
+        self.config.dfd_settings_warning.connect(self.show_dfd_settings_warning)
         self.config.load()
         self.categories = self.config.get_categories()
         self.category_lists = self.config.get_category_lists()
@@ -121,7 +121,7 @@ class Kortforsyningen(object):
 
         # Add menu object for each theme
         self.category_menus = []
-        kf_helper = lambda _id: lambda: self.open_kf_node(_id)
+        dfd_helper = lambda _id: lambda: self.open_dfd_node(_id)
         local_helper = lambda _id: lambda: self.open_local_node(_id)
         
         for category_list in self.category_lists:
@@ -133,9 +133,9 @@ class Kortforsyningen(object):
                     q_action = QAction(
                         selectable['name'], self.iface.mainWindow()
                     )
-                    if selectable['source'] == 'kf':
+                    if selectable['source'] == 'dfd':
                         q_action.triggered.connect(
-                            kf_helper(selectable['id'])
+                            dfd_helper(selectable['id'])
                         )
                     else:
                         q_action.triggered.connect(
@@ -175,8 +175,8 @@ class Kortforsyningen(object):
         node = self.config.get_local_maplayer_node(id)
         self.open_node(node, id)
 
-    def open_kf_node(self, id):
-        node = self.config.get_kf_maplayer_node(id)
+    def open_dfd_node(self, id):
+        node = self.config.get_dfd_maplayer_node(id)
         layer = self.open_node(node, id)
 
     def open_node(self, node, id):
