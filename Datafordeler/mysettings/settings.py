@@ -13,9 +13,9 @@ class Settings(SettingManager):
         SettingManager.__init__(self, 'Kortforsyningen')
         self.add_setting(String('username', Scope.Global, ''))
         self.add_setting(String('password', Scope.Global, ''))
-        self.add_setting(Bool('use_custom_file', Scope.Global, False))
-        self.add_setting(String('custom_qlr_file', Scope.Global, ''))
-        self.add_setting(Bool('only_background', Scope.Global, False))
+        ##self.add_setting(Bool('use_custom_file', Scope.Global, False))
+        ##self.add_setting(String('custom_qlr_file', Scope.Global, ''))
+        ##self.add_setting(Bool('only_background', Scope.Global, False))
         path = QFileInfo(os.path.realpath(__file__)).path()
         dfd_path = path + '/dfd/'
         if not os.path.exists(dfd_path):

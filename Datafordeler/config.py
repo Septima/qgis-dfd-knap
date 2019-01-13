@@ -30,19 +30,12 @@ class Config(QtCore.QObject):
 
         self.categories = []
         self.categories_list = []
-        if self.settings.value('use_custom_file') and self.settings.value('only_background'):
-            self.kf_categories = []
-            background_category = self.kf_config.get_background_category()
-            if background_category:
-                self.kf_categories.append(background_category)
-        else:
-            self.kf_categories = self.kf_config.get_categories()
-        self.local_categories = self.local_config.get_categories()
+
+        self.kf_categories = self.kf_config.get_categories()
         
-        self.categories = self.kf_categories + self.local_categories
+        self.categories = self.kf_categories ##+ self.local_categories
         
         self.categories_list.append(self.kf_categories)
-        self.categories_list.append(self.local_categories)
 
     def get_category_lists(self):
         return self.categories_list

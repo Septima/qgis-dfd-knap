@@ -11,23 +11,23 @@ class LocalConfig(object):
     
     def reload(self):
         self.categories = []
-        if self.settings.value('use_custom_file'):
-            self.local_qlr_filename = self.settings.value('custom_qlr_file')
-            self.qlr_file = self.get_local_qlr_file()
-            if self.qlr_file:
-                self.categories = self.get_local_categories()
+        ##if self.settings.value('use_custom_file'):
+            ##self.local_qlr_filename = self.settings.value('custom_qlr_file')
+            ##self.qlr_file = self.get_local_qlr_file()
+            ##if self.qlr_file:
+                ##self.categories = self.get_local_categories()
             
-    def get_local_qlr_file(self):
-        config = None
-        if self.settings.value('use_custom_file'):
-            local_file_exists = os.path.exists(self.local_qlr_filename)
-            if local_file_exists:
-                config = self.read_local_qlr()
+    ##def get_local_qlr_file(self):
+        ##config = None
+        ##if self.settings.value('use_custom_file'):
+            ##local_file_exists = os.path.exists(self.local_qlr_filename)
+            ##if local_file_exists:
+                ##config = self.read_local_qlr()
                 
-        if config:
-            return QlrFile(config)
-        else:
-            return None
+        ##if config:
+            ##return QlrFile(config)
+        ##else:
+            ##return None
         
     def read_local_qlr(self):
         f = QFile(self.local_qlr_filename)
