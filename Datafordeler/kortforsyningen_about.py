@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- Datafordeler
+ DatafordelerAboutDialog
                                  A QGIS plugin
  Easy access to webservices from Datafordeler
                              -------------------
-        begin                : 2019-02-01
-        copyright            : (C) 2019 by Septima P/S
-        email                : kontakt@septima.dk
+        begin                : 2019-01-02
         git sha              : $Format:%H$
+        copyright            : (C) 2019 Septima
+        email                : kontakt@septima.dk
  ***************************************************************************/
 
 /***************************************************************************
@@ -19,17 +19,18 @@
  *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
- This script initializes the plugin, making it known to QGIS.
 """
 
+import os
+from PyQt5 import uic
+from PyQt5.QtWidgets import QDialog
 
-# noinspection PyPep8Naming
-def classFactory(iface):  # pylint: disable=invalid-name
-    """Load KortForsyningen class from file KortForsyningen.
+FORM_CLASS, _ = uic.loadUiType(
+    os.path.join(os.path.dirname(__file__), 'aboutKortforsyningen.ui')
+)
 
-    :param iface: A QGIS interface instance.
-    :type iface: QgsInterface
-    """
-    #
-    from .kortforsyningen import Kortforsyningen
-    return Kortforsyningen(iface)
+
+class KFAboutDialog(QDialog, FORM_CLASS):
+    def __init__(self):
+        QDialog.__init__(self)
+        self.setupUi(self)

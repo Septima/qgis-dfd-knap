@@ -1,54 +1,42 @@
-# This file contains metadata for your plugin. Since 
-# version 2.0 of QGIS this is the proper way to supply 
-# information about a plugin. The old method of 
-# embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
 
-# This file should be included when you package your plugin.# Mandatory items:
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
 
 [general]
 name=Datafordeler
-qgisMinimumVersion=2.0
-description=Easy access to the services from Datafordeleren
-
-
-version=0.2
-author= Septima
-email= kontakt@septima.dk
-
-about=
-    <u>In English:</u>
-    This plugin makes it easy to use the services from Datafordeleren (Danish data). A new menu, 'Datafordeler', is added to QGIS which contains the Datafordeler-services ordered by category.
-    In order to use the plugin, a Datafordeler service user (in Danish 'Tjenestebruger') is required. If you already have a service user to Datafordeler, please enter your username and password in the plugin setting dialogue.
-    If you do not have an account, please follow the link in the setting dialogue and create one. <a href="http://datafordeler.dk/vejledninger/brugeroprettelse/" >Read more about creating a service user login</a>
-    <p></p>
-    <u>In Danish:</u>
-    Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS. En ny menu, 'Datafordeler', bliver tilføjet til QGIS. Denne menu indeholder data fordelt på kategorier.
-    Det er nødvendigt at have en tjenestebruger til Datafordeleren. Læs mere om at oprette en tjenestebruger på http://datafordeler.dk/vejledninger/brugeroprettelse/.
-    Tjenestebrugernavn og kodeord indtastes i indstillingsdialogen. Klik på linket i indstillingsdialogen hvis du ønsker at oprette en tjenestebruger (gratis).
-    <p></p>
-    This plugin is developed by Septima
-    <img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
-
+qgisMinimumVersion=3.00
+qgisMaximumVersion=3.99
+description=Easy access to webservices from Datafordeler in QGIS Desktop.
+version=1
+author=Septima
+email=kontakt@septima.dk
 
 
 # End of mandatory metadata
 
+about=<img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
+
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog:
-    2016-10-31: Removed Datafordeler-icon and specified information about creating a serviceuser to Datafordeler
-    2016-09-19: First release, version 0.1
+changelog=2018-04-24: version 2.4 Removed use of future to fix issue with Mac
+  2018-03-12: version 2.3 Fixed crash in locator
+
 
 # Tags are comma separated with spaces allowed
-tags=Danmark, Denmark, frie data, open data, dansk, Danish, Datafordeler, Map supply, WMS, WFS, WCS, Septima
+tags=Datafordeler, Septima, Denmark
 
-homepage=https://github.com/Septima/qgis-dfd-knap
-tracker=https://github.com/Septima/qgis-dfd-knap/issues
-repository=https://github.com/Septima/qgis-dfd-knap
-category=Plugins
-icon=resources/icon_datafordeler.png
+homepage=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3
+tracker=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3/issues
+repository=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3
+category=Kortforsyningen
+icon=images/icon.png
 # experimental flag
 experimental=False
 

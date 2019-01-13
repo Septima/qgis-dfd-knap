@@ -5,119 +5,104 @@
     <message>
         <location filename="test_translations.py" line="48"/>
         <source>Good morning</source>
-        <translation>God morgen</translation>
-    </message>
-</context>
-<context>
-    <name>Datafordeler</name>
-    <message>
-        <location filename="plugin.py" line="151"/>
-        <source>No contact to Datafordeleren</source>
-        <translation>Ingen kontakt til Datafordeleren</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="287"/>
-        <source>Error</source>
-        <translation>Fejl</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="259"/>
-        <source>Please, fill out username and password</source>
-        <translation>Udfyld brugernavn (husk det skal være tjenestebrugernavn) og kodeord</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="343"/>
-        <source>Settings</source>
-        <translation>Indstillinger</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="287"/>
-        <source>Could not load the layer. Is username and password correct?</source>
-        <translation>Kunne ikke hente laget. Er brugernavn og kodeord korrekt?</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="307"/>
-        <source>Datafordeler</source>
-        <translation>Datafordeler</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="338"/>
-        <source>Settings</source>
-        <translation>Indstillinger</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="348"/>
-        <source>About the plugin</source>
-        <translation>Om pluginet</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="353"/>
-        <source>About the plugin</source>
-        <translation>Om pluginet</translation>
-    </message>
-    <message>
-        <location filename="plugin.py" line="368"/>
-        <source>Developed by Septima</source>
-        <translation>Udviklet af Septima</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Dialog</name>
     <message>
-        <location filename="about.ui" line="22"/>
+        <location filename="aboutKortforsyningenAlternative.ui" line="22"/>
         <source>About the plugin</source>
-        <translation>Om pluginet</translation>
+        <translation>Om dette plugin</translation>
+    </message>
+</context>
+<context>
+    <name>KfConfig</name>
+    <message>
+        <location filename="kf_config.py" line="158"/>
+        <source>No contact to Kortforsyningen</source>
+        <translation>Ingen kontakt til Kortforsyningen</translation>
+    </message>
+</context>
+<context>
+    <name>Kortforsyningen</name>
+    <message>
+        <location filename="kortforsyningen.py" line="194"/>
+        <source>Kortforsyningen</source>
+        <translation>Kortforsyningen</translation>
     </message>
     <message>
-        <location filename="aboutDatafordeler.ui" line="22"/>
-        <source>Datafordeler</source>
-        <translation>Datafordeler</translation>
+        <location filename="kortforsyningen.py" line="244"/>
+        <source>Settings</source>
+        <translation>Indstillinger</translation>
     </message>
     <message>
-        <location filename="aboutSeptima.ui" line="22"/>
-        <source>Septima</source>
-        <translation>Septima</translation>
+        <location filename="kortforsyningen.py" line="254"/>
+        <source>About the plugin</source>
+        <translation>Om dette plugin</translation>
+    </message>
+    <message>
+        <location filename="kortforsyningen.py" line="148"/>
+        <source>No contact to Kortforsyning</source>
+        <translation>Ingen kontakt til Kortforsyningen</translation>
+    </message>
+    <message>
+        <location filename="kortforsyningen.py" line="170"/>
+        <source>Username/Password not set or wrong. Click menu Settings-&gt;Options-&gt;Kortforsyningen</source>
+        <translation>Brugernavn/kodeord er ikke indtastet eller er forkert. Klik på Indstillinger-&gt;Generelle indstillinger-&gt;Kortforsyningen</translation>
+    </message>
+    <message>
+        <location filename="kortforsyningen.py" line="336"/>
+        <source>&lt;p&gt;QGIS is having trouble showing the content of this dialog. Would you like to open it in an external browser window?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;QGIS har problemer med at vise indholdet af denne dialogboks. Ønsker du at vise det i et eksternt browservindue?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
     <name>s</name>
     <message>
-        <location filename="settings.ui" line="14"/>
-        <source>Access to Datafordeler</source>
-        <translation>Adgang til Datafordeler</translation>
-    </message>
-    <message>
-        <location filename="settings.ui" line="62"/>
+        <location filename="kf_settings.ui" line="50"/>
         <source>Username</source>
-        <translation>Brugernavn (tjenestebruger)</translation>
+        <translation>Brugernavn</translation>
     </message>
     <message>
-        <location filename="settings.ui" line="72"/>
+        <location filename="kf_settings.ui" line="60"/>
         <source>Password</source>
         <translation>Kodeord</translation>
     </message>
     <message>
-        <location filename="settings.ui" line="92"/>
-        <source>Remember settings</source>
+        <location filename="kf_settings.ui" line="14"/>
+        <source>Kortforsyningen - Settings</source>
+        <translation>Kortforsyningen - Indstillinger</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="44"/>
+        <source>Userinformation to Kortforsyningen</source>
+        <translation>Brugerinformation til Kortforsyningen</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="80"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Not registered as user at Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Create user&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ikke registreret som bruger på Kortforsyningen? &lt;a href=&quot;http://download.kortforsyningen.dk//content/opret-mig-som-bruger&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Opret bruger&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="93"/>
+        <source>Extend Kortforsyningsplugin with qlr-file</source>
+        <translation>Udvid Kortforsyningsplugin med qlr-fil</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="124"/>
+        <source>Open qlr-file</source>
+        <translation>Åben qlr-fil</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="134"/>
+        <source>Only display backgroundmap from Kortforsyningen</source>
+        <translation>Vis kun baggrundskort fra Kortforsyningen</translation>
+    </message>
+    <message>
+        <location filename="kf_settings.ui" line="156"/>
+        <source>Save settings</source>
         <translation>Gem indstillinger</translation>
-    </message>
-    <message>
-        <location filename="settings.ui" line="29"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Datafordeler service user&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Datafordeler tjenestebruger&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="settings.ui" line="36"/>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Access to the data from Datafordeler requires a service-user login (in Danish: &apos;Tjenestebruger&apos;). &lt;a href=&quot;http://datafordeler.dk/vejledninger/brugeroprettelse/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Read more about creating a service user&lt;/span&gt;&lt;/a&gt; and &lt;a href=&quot;https://selfservice.datafordeler.dk/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;create a user&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Adgang til data fra Datafordeler kræver et tjenestebruger login. &lt;a href=&quot;http://datafordeler.dk/vejledninger/brugeroprettelse/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Læs mere om oprettelse af tjenestebruger&lt;/span&gt;&lt;/a&gt; and &lt;a href=&quot;https://selfservice.datafordeler.dk/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;opret en tjenestebruger&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
