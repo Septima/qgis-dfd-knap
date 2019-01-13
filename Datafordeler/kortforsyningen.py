@@ -49,7 +49,7 @@ ABOUT_FILE_URL = 'https://apps2.kortforsyningen.dk/qgis_knap_config/QGIS3/About/
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 def log_message(message):
-    QgsMessageLog.logMessage(message, 'Kortforsyningen plugin')
+    QgsMessageLog.logMessage(message, 'Datafordeler plugin')
 
 class Kortforsyningen(object):
     """QGIS Plugin Implementation."""
@@ -187,7 +187,7 @@ class Kortforsyningen(object):
 
     # noinspection PyMethodMayBeStatic
     def tr(self, message):
-        return QCoreApplication.translate('Kortforsyningen', message)
+        return QCoreApplication.translate('Datafordeler', message)
 
     # Taken directly from menu_from_project
     def getFirstChildByTagNameValue(self, elt, tagName, key, value):
