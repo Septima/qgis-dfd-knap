@@ -35,33 +35,33 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.setupUi(self)
         SettingDialog.__init__(self, settings)
         self.settings = settings
-        if self.settings.value('use_custom_file'):
+        ##if self.settings.value('use_custom_file'):
         #if self.use_custom_file.isChecked():
-            self.only_background.setEnabled(True)
-            self.browseLocalFileButton.setEnabled(True)
-        else:
-            self.only_background.setEnabled(False)
-            self.browseLocalFileButton.setEnabled(False)
+            ##self.only_background.setEnabled(True)
+            ##self.browseLocalFileButton.setEnabled(True)
+        ##else:
+        ##self.only_background.setEnabled(False)
+        ##self.browseLocalFileButton.setEnabled(False)
 
-        self.browseLocalFileButton.clicked.connect(self.browseLocalFile)
-        self.use_custom_file.clicked.connect(self.useLocalChanged)
+        ##self.browseLocalFileButton.clicked.connect(self.browseLocalFile)
+        ##self.use_custom_file.clicked.connect(self.useLocalChanged)
         
-    def browseLocalFile(self):
-        qlr_file, f = QFileDialog.getOpenFileName(
-            self,
-            "Lokal qlr",
-            self.custom_qlr_file.text(),
-            "Qlr (*.qlr)"
-        )
-        if qlr_file:
+    ##def browseLocalFile(self):
+        ##qlr_file, f = QFileDialog.getOpenFileName(
+            ##self,
+            ##"Lokal qlr",
+            ##self.custom_qlr_file.text(),
+            ##"Qlr (*.qlr)"
+        ##)
+        ##if qlr_file:
             #self.settings.set_value('custom_qlr_file', qlr_file)
-            self.custom_qlr_file.setText(qlr_file)
+            ##self.custom_qlr_file.setText(qlr_file)
 
-    def useLocalChanged(self, checked):
-        if self.use_custom_file.isChecked():
-            self.only_background.setEnabled(True)
-            self.browseLocalFileButton.setEnabled(True)
-        else:
-            self.only_background.setEnabled(False)
-            self.browseLocalFileButton.setEnabled(False)
+    ##def useLocalChanged(self, checked):
+        ##if self.use_custom_file.isChecked():
+            ##self.only_background.setEnabled(True)
+            ##self.browseLocalFileButton.setEnabled(True)
+        ##else:
+            ##self.only_background.setEnabled(False)
+            ##self.browseLocalFileButton.setEnabled(False)
 
