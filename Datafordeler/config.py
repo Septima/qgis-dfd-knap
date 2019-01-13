@@ -1,4 +1,4 @@
-from .kf_config import KfConfig
+from .dfd_config import KfConfig
 from .local_config import LocalConfig
 from qgis.PyQt import (
     QtCore

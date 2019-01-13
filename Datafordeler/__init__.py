@@ -31,5 +31,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    from .kortforsyningen import Kortforsyningen
+    from .datafordeler import Kortforsyningen
     return Kortforsyningen(iface)
