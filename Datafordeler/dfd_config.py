@@ -51,9 +51,9 @@ class DfdConfig(QtCore.QObject):
                 self.categories = []
             self.debug_write_allowed_services()
         else:
-                self.dfd_settings_warning.emit()
-                self.background_category = None
-                self.categories = []
+            self.dfd_settings_warning.emit()
+            self.background_category = None
+            self.categories = []
 
     def get_allowed_dfd_services(self):
         allowed_dfd_services = {}
