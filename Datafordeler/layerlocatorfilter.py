@@ -18,16 +18,16 @@ class LayerLocatorFilter( QgsLocatorFilter ):
         return LayerLocatorFilter( data = self.data )
 
     def name( self ):
-        return 'kortforsyningen'
+        return 'datafordeler'
 
     def displayName( self ):
-        return self.tr( 'Kortforsyningen' )
+        return self.tr( 'Datafordeler' )
 
     def priority( self ):
         return QgsLocatorFilter.Low
 
     def prefix( self ):
-        return 'kortforsyningen'
+        return 'datafordeler'
 
     def flags( self ):
         return QgsLocatorFilter.FlagFast
@@ -60,7 +60,7 @@ class LayerLocatorFilterData():
             layer['actionindex'] = i
             i = i+1
             layer['searchstring'] = self.create_search_string( layer )
-            layer['title'] += ' (' + layer['category'] + ', Kortforsyningen)'
+            layer['title'] += ' (' + layer['category'] + ', Datafordeler)'
 
     def create_search_string( self, layer ):
         search_string = layer['category'] + ' ' + layer['title']
