@@ -13,29 +13,42 @@ name=Datafordeler
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
 description=Easy access to webservices from Datafordeler in QGIS Desktop.
-version=1
+version=1.0
 author=Septima
 email=kontakt@septima.dk
 
 
 # End of mandatory metadata
 
-about=<img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
+about=
+    In English:
+    This plugin makes it easy to use the services from Datafordeleren (Danish data). A new menu, 'Datafordeler', is added to QGIS which contains the Datafordeler-services ordered by category.
+    In order to use the plugin, a Datafordeler service user (in Danish 'Tjenestebruger') is required. If you already have a service user to Datafordeler, please enter your username and password in the plugin setting dialogue.
+    If you do not have an account, please follow the link in the setting dialogue and create one. <a href="http://datafordeler.dk/vejledninger/brugeroprettelse/" >Read more about creating a service user login</a>
+    <p></p>
+    In Danish:
+    Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS. En ny menu, 'Datafordeler', bliver tilføjet til QGIS. Denne menu indeholder data fordelt på kategorier.
+    Det er nødvendigt at have en tjenestebruger til Datafordeleren. Læs mere om at oprette en tjenestebruger på http://datafordeler.dk/vejledninger/brugeroprettelse/.
+    Tjenestebrugernavn og kodeord indtastes i indstillingsdialogen. Klik på linket i indstillingsdialogen hvis du ønsker at oprette en tjenestebruger (gratis).
+    <p></p>
+    This plugin is developed by Septima
+    <img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
 
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=2018-04-24: version 2.4 Removed use of future to fix issue with Mac
-  2018-03-12: version 2.3 Fixed crash in locator
+changelog=2019-01-01: Updated to QGIS3, allowed search with locator
+  2016-10-31: Version 0.2. Removed Datafordeler-icon and specified information about creating a serviceuser to Datafordeler
+  2016-09-19: Version 0.1. First release
 
 
 # Tags are comma separated with spaces allowed
-tags=Datafordeler, Septima, Denmark
+tags=Danmark, Denmark, frie data, open data, dansk, Danish, Datafordeler, WFS, Septima
 
-homepage=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3
-tracker=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3/issues
-repository=https://github.com/Kortforsyningen/Qgis_plugin_Kortforsyningen_v3
-category=Kortforsyningen
+homepage=https://github.com/Septima/qgis-dfd-knap
+tracker=https://github.com/Septima/qgis-dfd-knap/issues
+repository=https://github.com/Septima/qgis-dfd-knap
+category=Datafordeler
 icon=images/icon.png
 # experimental flag
 experimental=False
