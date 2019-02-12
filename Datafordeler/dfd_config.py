@@ -23,7 +23,7 @@ import json
 from .qlr_file import QlrFile
 
 FILE_MAX_AGE = datetime.timedelta(hours=12)
-DFD_SERVICES_URL = 'http://services.kortforsyningen.dk/service?request=GetServices&login={{kf_username}}&password={{kf_password}}'
+
 
 def log_message(message):
     QgsMessageLog.logMessage(message, 'Datafordeler plugin')
@@ -42,56 +42,24 @@ class DfdConfig(QtCore.QObject):
         self.allowed_dfd_services = {}
         if self.settings.is_set():
             try:
-                self.allowed_dfd_services = self.get_allowed_dfd_services()
                 self.dfd_qlr_file = self.get_dfd_qlr_file()
-                self.background_category, self.categories = self.get_dfd_categories()
+                self.categories = self.get_dfd_categories()
             except Exception as e:
                 self.dfd_con_error.emit()
-                self.background_category = None
                 self.categories = []
             self.debug_write_allowed_services()
         else:
             self.dfd_settings_warning.emit()
-            self.background_category = None
             self.categories = []
-
-    def get_allowed_dfd_services(self):
-        allowed_dfd_services = {}
-        allowed_dfd_services['any_type'] = {'services': []}
-        url_to_get = self.insert_username_password(DFD_SERVICES_URL)
-        response = urlopen(url_to_get)
-        xml = response.read()
-        doc = QtXml.QDomDocument()
-        doc.setContent(xml)
-        service_types = doc.documentElement().childNodes()
-        i = 0
-        while i<service_types.count():
-            service_type = service_types.at(i)
-            service_type_name= service_type.nodeName()
-            allowed_dfd_services[service_type_name] = {'services': []}
-            services = service_type.childNodes()
-            j = 0
-            while j<services.count():
-                service = services.at(j)
-                service_name = service.nodeName()
-                allowed_dfd_services[service_type_name]['services'].append(service_name)
-                allowed_dfd_services['any_type']['services'].append(service_name)
-                j = j + 1
-            i = i + 1
-        return allowed_dfd_services
 
     def get_categories(self):
          return self.categories
          
-    def get_background_category(self):
-         return self.background_category
-
     def get_maplayer_node(self, id):
          return self.dfd_qlr_file.get_maplayer_node(id)
      
     def get_dfd_categories(self):
         dfd_categories = []
-        dfd_background_category = None
         groups_with_layers = self.dfd_qlr_file.get_groups_with_layers()
         for group in groups_with_layers:
             dfd_category = {
@@ -99,22 +67,16 @@ class DfdConfig(QtCore.QObject):
                 'selectables': []
             }
             for layer in group['layers']:
-                if self.user_has_access(layer['service']):
-                    dfd_category['selectables'].append({
-                        'type': 'layer',
-                        'source': 'dfd',
-                        'name': layer['name'],
-                        'id': layer['id']
-                        }
-                    )
+                dfd_category['selectables'].append({
+                    'type': 'layer',
+                    'source': 'dfd',
+                    'name': layer['name'],
+                    'id': layer['id']
+                    }
+                )
             if len(dfd_category['selectables']) > 0:
                 dfd_categories.append(dfd_category)
-                if group['name'] == 'Baggrundskort':
-                    dfd_background_category = dfd_category
-        return dfd_background_category, dfd_categories
-
-    def user_has_access(self, service_name):
-        return service_name in self.allowed_dfd_services['any_type']['services']
+        return dfd_categories
 
     def get_custom_categories(self):
         return []
@@ -188,8 +150,8 @@ class DfdConfig(QtCore.QObject):
     def insert_username_password(self, text):
         result = text
         replace_vars = {}
-        replace_vars["kf_username"] = self.settings.value('username')
-        replace_vars["kf_password"] = self.settings.value('password')
+        replace_vars["username"] = self.settings.value('username')
+        replace_vars["password"] = self.settings.value('password')
         for i, j in replace_vars.items():
             result = result.replace("{{" + str(i) + "}}", str(j))
         return result

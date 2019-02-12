@@ -4,7 +4,8 @@ from PyQt5.QtCore import QFileInfo, QObject
 from qgis.PyQt import QtCore
 
 from .qgissettingmanager import *
-CONFIG_FILE_URL ='https://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/kf/kortforsyning_data.qlr'
+##CONFIG_FILE_URL ='https://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/kf/kortforsyning_data.qlr'
+CONFIG_FILE_URL ='https://raw.githubusercontent.com/Septima/qgis-dfd-knap/0a49504dfb70829e69fa836f913cb983cf6635dc/Qlrfile_Datafordeler_QGIS3/DFD-opsaetning_udenBNPW.qlr'
 
 class Settings(SettingManager):
     settings_updated = QtCore.pyqtSignal()
