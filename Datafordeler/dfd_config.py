@@ -38,7 +38,8 @@ class DfdConfig(QtCore.QObject):
         self.settings = settings
 
     def load(self):
-        self.cached_dfd_qlr_filename = self.settings.value('cache_path') + 'datafordeler_data.qlr'
+        username_password_combined = self.settings.value('password') + self.settings.value('username')
+        self.cached_dfd_qlr_filename = self.settings.value('cache_path') + hashlib.md5(username_password_combined.encode()).hexdigest() + '_datafordeler_data.qlr'
         self.allowed_dfd_services = {}
         if self.settings.is_set():
             try:
@@ -130,8 +131,8 @@ class DfdConfig(QtCore.QObject):
     def write_cached_dfd_qlr(self, contents):
         """We only call this function IF we have a new version downloaded"""
         # Remove old versions file
-        if os.path.exists(self.cached_dfd_qlr_filename):
-            os.remove(self.cached_dfd_qlr_filename)
+        for filename in glob.glob(self.settings.value('cache_path') + '*_datafordeler_data.qlr'):
+            os.remove(filename)
 
         # Write new version
         with codecs.open(self.cached_dfd_qlr_filename, 'w', 'utf-8') as f:
