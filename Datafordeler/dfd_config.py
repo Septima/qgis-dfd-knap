@@ -18,6 +18,8 @@ from qgis.PyQt.QtGui import QIcon
 
 from qgis.PyQt import QtCore, QtXml
 
+import hashlib
+import glob
 import json
 
 from .qlr_file import QlrFile
