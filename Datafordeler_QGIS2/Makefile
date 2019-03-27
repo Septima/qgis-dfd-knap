@@ -1,11 +1,11 @@
 #/***************************************************************************
 # Datafordeler
 #
-# Easy access to webservices from Datafordeler
+# Nem adgang til services fra Datafordeler
 #							 -------------------
-#		begin				: 2019-01-02
+#		begin				: 2016-09-20
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2019 by Septima P/S
+#		copyright			: (C) 2016 by Septima P/S
 #		email				: kontakt@septima.dk
 # ***************************************************************************/
 #
@@ -25,7 +25,6 @@
 
 #Add iso code for any locales you want to support here (space separated)
 # default is no locales
-# LOCALES = af
 LOCALES = da
 
 # If locales are enabled, set the name of the lrelease binary on your system. If
@@ -38,26 +37,26 @@ LRELEASE = lrelease
 # translation
 SOURCES = \
 	__init__.py \
-	kortforsyningen.py \
-	kortforsyningen_settings.py \
-	kortforsyningen_about.py \
+	plugin.py \
+	plugin_settings.py \
+	plugin_about.py \
 	project.py
 
 
-PLUGINNAME = Kortforsyningen
+PLUGINNAME = Datafordeler
 
 PY_FILES = \
-	kortforsyningen.py \
-	kortforsyningen_settings.py \
-	kortforsyningen_about.py \
+	plugin.py \
+	plugin_settings.py \
+	plugin_about.py \
 	project.py \
 	__init__.py
 
 UI_FILES = \
-	kf_settings.ui \
-	aboutKortforsyningen.ui
+	settings.ui \
+	about.ui
 
-EXTRAS = icon.png metadata.txt
+EXTRAS = resources/icon_datafordeler.png metadata.txt
 
 PLUGIN = qgissettingmanager
 
@@ -82,8 +81,8 @@ default: compile
 
 compile: $(COMPILED_RESOURCE_FILES)
 
-%_rc.py : %.qrc $(RESOURCES_SRC)
-	pyrcc4 -o $*_rc.py  $<
+%.py : %.qrc $(RESOURCES_SRC)
+	pyrcc4 -o $*.py  $<
 
 %.qm : %.ts
 	$(LRELEASE) $<
@@ -121,7 +120,6 @@ deploy: compile doc transcompile
 	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
-	cp -vfr $(PLUGIN) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/$(PLUGIN)
 
 # The dclean target removes compiled python files from plugin directory
 # also deletes any .git entry
