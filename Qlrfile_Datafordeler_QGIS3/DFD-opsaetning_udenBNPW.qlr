@@ -6,349 +6,349 @@
       <customproperties/>
       <layer-tree-group expanded="1" name="DAGI" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Kommuneinddeling_e4bcf9d4_4db8_4cf2_20190201905271145038229373" expanded="1" name="Kommuneinddeling" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Kommuneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Kommuneinddeling_e4bcf9d4_4db8_4cf2_20190201905271145038229373" expanded="1" name="Kommuneinddeling" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Kommuneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Sogneinddeling_545a9464_9537_4e89_201902019052711450383123233" expanded="1" name="Sogneinddeling (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Sogneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Sogneinddeling_545a9464_9537_4e89_201902019052711450383123233" expanded="1" name="Sogneinddeling (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Sogneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Postnummerinddeling_a85aecb6_b31a_4629_201902019052711450383922022" expanded="1" name="Postnummerinddeling (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Postnummerinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Postnummerinddeling_a85aecb6_b31a_4629_201902019052711450383922022" expanded="1" name="Postnummerinddeling (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Postnummerinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="SupplerendeBynavn_b363ea4e_b48d_4eb2_20192019052711450384812565" expanded="1" name="Supplerende Bynavn (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:SupplerendeBynavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="SupplerendeBynavn_b363ea4e_b48d_4eb2_20192019052711450384812565" expanded="1" name="Supplerende Bynavn (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:SupplerendeBynavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Opstillingskreds_fd6f60a8_8f77_4dd8_20190201905271145038561920" expanded="1" name="Opstillingskreds (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Opstillingskreds' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Opstillingskreds_fd6f60a8_8f77_4dd8_20190201905271145038561920" expanded="1" name="Opstillingskreds (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Opstillingskreds' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Afstemningsomraade_1964977d_6f09_448f_2019201905271145038658938" expanded="1" name="Afstemningsområde (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Afstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Afstemningsomraade_1964977d_6f09_448f_2019201905271145038658938" expanded="1" name="Afstemningsområde (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Afstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Menighedsraadsafstemningsomraade_7f154662_ee6f_4847_201902019052711450387313401" expanded="1" name="Menighedsrådsafstemningsområde (vises op til 1:30.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Menighedsraadsafstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Menighedsraadsafstemningsomraade_7f154662_ee6f_4847_201902019052711450387313401" expanded="1" name="Menighedsrådsafstemningsområde (vises op til 1:30.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Menighedsraadsafstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="GeoDanmark - Bygninger" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Bygning_c0b78bba_d14b_498b_201902019052711450388222010" expanded="1" name=" Bygning (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bygning_c0b78bba_d14b_498b_201902019052711450388222010" expanded="1" name=" Bygning (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="GeoDanmark - Bebyggelse" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Bykerne_36222e4b_1814_4ff8_201902019052711450389111389" expanded="1" name="Bykerne (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bykerne' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bykerne_36222e4b_1814_4ff8_201902019052711450389111389" expanded="1" name="Bykerne (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bykerne' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Erhverv_aa75c228_722b_4c14_201902019052711450390032559" expanded="1" name="Erhverv (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Erhverv' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Erhverv_aa75c228_722b_4c14_201902019052711450390032559" expanded="1" name="Erhverv (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Erhverv' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="LavBebyggelse_b801ff40_3fd5_474e_201902019052711450390911034" expanded="1" name="Lav Bebyggelse (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:LavBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="LavBebyggelse_b801ff40_3fd5_474e_201902019052711450390911034" expanded="1" name="Lav Bebyggelse (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:LavBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="HoejBebyggelse_8b78c024_41cc_41ef_2019201905271145039191857" expanded="1" name="Høj Bebyggelse (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:HoejBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="HoejBebyggelse_8b78c024_41cc_41ef_2019201905271145039191857" expanded="1" name="Høj Bebyggelse (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:HoejBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" name="GeoDanmark - Trafik" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="gdk_VejmidteBrudt_c71b9f47_4ac1_433e_2019052711450392812097" expanded="1" name="Vejmidte brudt (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VejmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="gdk_VejmidteBrudt_c71b9f47_4ac1_433e_2019052711450392812097" expanded="1" name="Vejmidte brudt (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VejmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Vejkant_83da6f5c_bc8b_4322_201902019052711450393711607" expanded="1" name="Vejkant (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vejkant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vejkant_83da6f5c_bc8b_4322_201902019052711450393711607" expanded="1" name="Vejkant (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vejkant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Helle_39d027d4_c2f5_4dbc_20190201905271145039463722" expanded="1" name="Helle (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Helle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Helle_39d027d4_c2f5_4dbc_20190201905271145039463722" expanded="1" name="Helle (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Helle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Chikane_7c9b3caa_760d_41d5_20192019052711450395624450" expanded="1" name="Chikane (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Chikane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Chikane_7c9b3caa_760d_41d5_20192019052711450395624450" expanded="1" name="Chikane (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Chikane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Trafikhegn_a036c7c6_3be0_4418_201902019052711450396514870" expanded="1" name="Trafikhegn (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trafikhegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Trafikhegn_a036c7c6_3be0_4418_201902019052711450396514870" expanded="1" name="Trafikhegn (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trafikhegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Togstation_3bd15c33_41e4_4d7a_201902019052711450397482" expanded="1" name="Togstation" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Togstation' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Togstation_3bd15c33_41e4_4d7a_201902019052711450397482" expanded="1" name="Togstation" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Togstation' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="gdk_JernbaneBrudt_142f8357_3652_41bb_2019052711450398412386" expanded="1" name="Jernbane Brudt (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:JernbaneBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="gdk_JernbaneBrudt_142f8357_3652_41bb_2019052711450398412386" expanded="1" name="Jernbane Brudt (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:JernbaneBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Systemlinje_65101833_046f_4321_201902019052711450399318904" expanded="1" name="Systemlinje (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Systemlinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Systemlinje_65101833_046f_4321_201902019052711450399318904" expanded="1" name="Systemlinje (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Systemlinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="GeoDanmark - Teknik" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="TekniskAreal_728f1509_8573_4cd9_201902019052711450400310936" expanded="1" name="Teknisk Areal (vises op til 1:80.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:TekniskAreal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="TekniskAreal_728f1509_8573_4cd9_201902019052711450400310936" expanded="1" name="Teknisk Areal (vises op til 1:80.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:TekniskAreal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Startbane_5b818f01_a0eb_4924_201902019052711450401216834" expanded="1" name="Startbane (vises op til 1:80.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Startbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Startbane_5b818f01_a0eb_4924_201902019052711450401216834" expanded="1" name="Startbane (vises op til 1:80.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Startbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Hoejspaendingsledning_774f2d83_46a9_4779_201902019052711450402219281" expanded="1" name="Højspændingsledning (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoejspaendingsledning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Hoejspaendingsledning_774f2d83_46a9_4779_201902019052711450402219281" expanded="1" name="Højspændingsledning (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoejspaendingsledning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="AnlaegDiverse_284d0eaf_83d3_4851_2019201905271145040323977" expanded="1" name="AnlægDiverse (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:AnlaegDiverse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="AnlaegDiverse_284d0eaf_83d3_4851_2019201905271145040323977" expanded="1" name="AnlægDiverse (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:AnlaegDiverse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Hoefde_3f1380c4_eddc_466c_20192019052711450404131076" expanded="1" name="Høfde (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoefde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Hoefde_3f1380c4_eddc_466c_20192019052711450404131076" expanded="1" name="Høfde (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoefde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Parkering_efce253d_70f5_401f_201902019052711450405119643" expanded="1" name="Parkering (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkering' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Parkering_efce253d_70f5_401f_201902019052711450405119643" expanded="1" name="Parkering (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkering' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Skorsten_35e04049_5893_4144_20192019052711450406117068" expanded="1" name="Skorsten (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skorsten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Skorsten_35e04049_5893_4144_20192019052711450406117068" expanded="1" name="Skorsten (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skorsten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Telemast_7d256891_c054_4f67_201902019052711450407026857" expanded="1" name="Telemast (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Telemast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Telemast_7d256891_c054_4f67_201902019052711450407026857" expanded="1" name="Telemast (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Telemast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Vindmoelle_e0d24141_4e44_4042_2019201905271145040795683" expanded="1" name="Vindmølle (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vindmoelle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vindmoelle_e0d24141_4e44_4042_2019201905271145040795683" expanded="1" name="Vindmølle (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vindmoelle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Mast_59fb9331_32b8_4b30_201902019052711450409017863" expanded="1" name="Mast (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Mast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Mast_59fb9331_32b8_4b30_201902019052711450409017863" expanded="1" name="Mast (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Mast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Nedloebsrist_e354a298_0da3_43cd_20190201905271145040992658" expanded="1" name="Nedløbsrist (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Nedloebsrist' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Nedloebsrist_e354a298_0da3_43cd_20190201905271145040992658" expanded="1" name="Nedløbsrist (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Nedloebsrist' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Broenddaeksel_fcc609fa_765b_4f3e_20190201905271145041085499" expanded="1" name="Brønddæksel (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Broenddaeksel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Broenddaeksel_fcc609fa_765b_4f3e_20190201905271145041085499" expanded="1" name="Brønddæksel (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Broenddaeksel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="StatueSten_2248dee6_7a45_413b_201902019052711450411812454" expanded="1" name="StatueSten (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:StatueSten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="StatueSten_2248dee6_7a45_413b_201902019052711450411812454" expanded="1" name="StatueSten (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:StatueSten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Bygvaerk_e7e530ba_5a02_4352_2019201905271145041275166" expanded="1" name="Bygværk (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygvaerk' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bygvaerk_e7e530ba_5a02_4352_2019201905271145041275166" expanded="1" name="Bygværk (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygvaerk' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Begravelsesomraade_eb7a856c_b224_49d9_20192019052711450413619246" expanded="1" name="Begravelsesområde (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Begravelsesomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Begravelsesomraade_eb7a856c_b224_49d9_20192019052711450413619246" expanded="1" name="Begravelsesområde (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Begravelsesomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Bassin_d195bab7_033f_419a_20192019052711450414516218" expanded="1" name="Bassin (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bassin_d195bab7_033f_419a_20192019052711450414516218" expanded="1" name="Bassin (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="GeoDanmark - Natur" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Skov_4d14d49d_67bc_4e31_2019201905271145041557554" expanded="1" name="Skov (vises op til 1:80.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skov' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Skov_4d14d49d_67bc_4e31_2019201905271145041557554" expanded="1" name="Skov (vises op til 1:80.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skov' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Hede_094c347e_6ca8_4fff_2019020190527114504164116" expanded="1" name="Hede (vises op til 1:80.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hede' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Hede_094c347e_6ca8_4fff_2019020190527114504164116" expanded="1" name="Hede (vises op til 1:80.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hede' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Vaadomraade_98a726ea_e6ce_418a_2019201905271145041735904" expanded="1" name="Vådområde (vises op til 1:80.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vaadomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vaadomraade_98a726ea_e6ce_418a_2019201905271145041735904" expanded="1" name="Vådområde (vises op til 1:80.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vaadomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="KratBevoksning_e03f25e8_cebc_4aa9_201902019052711450418211735" expanded="1" name="KratBevoksning (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:KratBevoksning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="KratBevoksning_e03f25e8_cebc_4aa9_201902019052711450418211735" expanded="1" name="KratBevoksning (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:KratBevoksning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="SandKlit_a480c9e4_ada1_4006_201902019052711450419220190" expanded="1" name="SandKlit (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:SandKlit' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="SandKlit_a480c9e4_ada1_4006_201902019052711450419220190" expanded="1" name="SandKlit (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:SandKlit' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Raastofomraade_0fa75a9a_0f78_4f97_20190201905271145042007202" expanded="1" name="Råstofområde (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Raastofomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Raastofomraade_0fa75a9a_0f78_4f97_20190201905271145042007202" expanded="1" name="Råstofområde (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Raastofomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Gartneri_58d8b663_d6fb_4a3e_201902019052711450420916893" expanded="1" name="Gartneri (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Gartneri' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Gartneri_58d8b663_d6fb_4a3e_201902019052711450420916893" expanded="1" name="Gartneri (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Gartneri' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Hegn_4ce0db80_e06a_4f4b_20190201905271145042192916" expanded="1" name="Hegn (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Hegn_4ce0db80_e06a_4f4b_20190201905271145042192916" expanded="1" name="Hegn (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Brugsgraense_f58e61e8_503f_49a6_20190201905271145042284730" expanded="1" name="Brugsgrænse (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Brugsgraense' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Brugsgraense_f58e61e8_503f_49a6_20190201905271145042284730" expanded="1" name="Brugsgrænse (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Brugsgraense' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Skraent_b867a55c_fd7f_459e_201902019052711450423822218" expanded="1" name="Skrænt (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skraent' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Skraent_b867a55c_fd7f_459e_201902019052711450423822218" expanded="1" name="Skrænt (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skraent' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Daemning_89ef96a6_e76c_4c46_201902019052711450424813014" expanded="1" name="Dæmning (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Daemning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Daemning_89ef96a6_e76c_4c46_201902019052711450424813014" expanded="1" name="Dæmning (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Daemning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Dige_13135e5a_6f3c_439c_201902019052711450425717073" expanded="1" name="Dige (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Dige' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Dige_13135e5a_6f3c_439c_201902019052711450425717073" expanded="1" name="Dige (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Dige' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Trae_e335fac2_d1dc_42a4_20190201905271145042652642" expanded="1" name="Træ (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trae' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Trae_e335fac2_d1dc_42a4_20190201905271145042652642" expanded="1" name="Træ (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trae' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Traegruppe_0a47f4ff_c2cd_4c19_20192019052711450427525669" expanded="1" name="Trægruppe (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Traegruppe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Traegruppe_0a47f4ff_c2cd_4c19_20192019052711450427525669" expanded="1" name="Trægruppe (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Traegruppe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" name="GeoDanmark - Hydro" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Soe_44988093_1e6e_410f_201902019052711450428516535" expanded="1" name="Sø (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Soe_44988093_1e6e_410f_201902019052711450428516535" expanded="1" name="Sø (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Afvandingsgroeft_97ff1409_e28f_4ff5_201902019052711450429514100" expanded="1" name="Afvandingsgrøft (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Afvandingsgroeft' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Afvandingsgroeft_97ff1409_e28f_4ff5_201902019052711450429514100" expanded="1" name="Afvandingsgrøft (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Afvandingsgroeft' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Vandloebskant_f4d126bb_9e8a_4a17_20190201905271145043044979" expanded="1" name="Vandløbskant (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vandloebskant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vandloebskant_f4d126bb_9e8a_4a17_20190201905271145043044979" expanded="1" name="Vandløbskant (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vandloebskant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="gdk_VandloebsmidteBrudt_2705425f_efe5_43a1_2019052711450431222591" expanded="1" name="Vandløbsmidte brudt (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VandloebsmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="gdk_VandloebsmidteBrudt_2705425f_efe5_43a1_2019052711450431222591" expanded="1" name="Vandløbsmidte brudt (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VandloebsmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Havn_2272010a_a64f_4bcf_201902019052711450432228625" expanded="1" name="Havn (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Havn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Havn_2272010a_a64f_4bcf_201902019052711450432228625" expanded="1" name="Havn (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Havn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Kyst_07a668ac_4aab_4a9c_201902019052711450433023598" expanded="1" name="Kyst (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Kyst' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Kyst_07a668ac_4aab_4a9c_201902019052711450433023598" expanded="1" name="Kyst (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Kyst' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="BadeBaadebro_0c46d2cf_6cc9_419b_2019201905271145043383854" expanded="1" name="BadeBådebro (vises op til 1:20.000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:BadeBaadebro' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="BadeBaadebro_0c46d2cf_6cc9_419b_2019201905271145043383854" expanded="1" name="BadeBådebro (vises op til 1:20.000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:BadeBaadebro' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="GeoDanmark - Topografi" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Plads_fd1db701_5907_4fb6_20190201905271145043466902" expanded="1" name="Plads" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Plads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Plads_fd1db701_5907_4fb6_20190201905271145043466902" expanded="1" name="Plads" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Plads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="RekreativtOmraade_bbb63c6a_c8a5_4741_20190201905271145043569306" expanded="1" name="Rekreativt område" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:RekreativtOmraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="RekreativtOmraade_bbb63c6a_c8a5_4741_20190201905271145043569306" expanded="1" name="Rekreativt område" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:RekreativtOmraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" name="GeoDanmark - Diverse" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Omraadepolygon_d2808747_1dda_493a_20192019052711450436428876" expanded="1" name="Områdepolygon" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Omraadepolygon' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Omraadepolygon_d2808747_1dda_493a_20192019052711450436428876" expanded="1" name="Områdepolygon" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Omraadepolygon' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Parkeringsomraade_d9cf4b60_9744_4a6d_20192019052711450437216843" expanded="1" name="Parkeringsområde (vises op til 1:7000)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkeringsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Parkeringsomraade_d9cf4b60_9744_4a6d_20192019052711450437216843" expanded="1" name="Parkeringsområde (vises op til 1:7000)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkeringsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="Stednavne" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Sevaerdighed_e5008166_1a27_49ed_2019201905271145043816974" expanded="1" name="Seværdighed" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Sevaerdighed_e5008166_1a27_49ed_2019201905271145043816974" expanded="1" name="Seværdighed" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Fortidsminde_1e9846ce_66c8_4638_2019201905271145043916978" expanded="1" name="Fortidsminde" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Fortidsminde_1e9846ce_66c8_4638_2019201905271145043916978" expanded="1" name="Fortidsminde" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Bygning_328914f7_2437_4d07_20192019052711450439924843" expanded="1" name="Bygning" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bygning_328914f7_2437_4d07_20192019052711450439924843" expanded="1" name="Bygning" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Bebyggelse_c5f5f67a_58a5_4c03_201902019052711450440815711" expanded="1" name="Bebyggelse" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Bebyggelse_c5f5f67a_58a5_4c03_201902019052711450440815711" expanded="1" name="Bebyggelse" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Havnebassin_a4261f33_2603_4722_201902019052711450441725033" expanded="1" name="Havnebassin" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Havnebassin_a4261f33_2603_4722_201902019052711450441725033" expanded="1" name="Havnebassin" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Friluftsbad_1cb58792_6d36_445b_201902019052711450442616650" expanded="1" name="Friluftsbad" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Friluftsbad_1cb58792_6d36_445b_201902019052711450442616650" expanded="1" name="Friluftsbad" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Idraetsanlaeg_fa8c9177_9709_4864_20190201905271145044345056" expanded="0" name="Idrætsanlæg" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Idraetsanlaeg_fa8c9177_9709_4864_20190201905271145044345056" expanded="0" name="Idrætsanlæg" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Campingplads_3ed997d1_6251_4845_20190201905271145044432145" expanded="1" name="Campingplads" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Campingplads_3ed997d1_6251_4845_20190201905271145044432145" expanded="1" name="Campingplads" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Begravelsesplads_5c25a017_87b1_4a53_20192019052711450445227045" expanded="1" name="Begravelsesplads" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Begravelsesplads_5c25a017_87b1_4a53_20192019052711450445227045" expanded="1" name="Begravelsesplads" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Restriktionsareal_d696701f_d025_467c_20192019052711450446114353" expanded="1" name="Restriktionsareal" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Restriktionsareal_d696701f_d025_467c_20192019052711450446114353" expanded="1" name="Restriktionsareal" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="Stednavne - transport" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Vej_a90ebfd4_fde9_42bb_201902019052711450446910006" expanded="1" name="Vej" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vej_a90ebfd4_fde9_42bb_201902019052711450446910006" expanded="1" name="Vej" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Jernbane_8cfae4c7_f736_4c37_201902019052711450447730809" expanded="1" name="Jernbane" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Jernbane_8cfae4c7_f736_4c37_201902019052711450447730809" expanded="1" name="Jernbane" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Rute_a438a5d6_b3c5_42bb_201902019052711450448725094" expanded="1" name="Rute" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Rute_a438a5d6_b3c5_42bb_201902019052711450448725094" expanded="1" name="Rute" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Standsningssted_8c1e32a3_d419_4ad7_20190201905271145044969039" expanded="1" name="Standsningssted" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Standsningssted_8c1e32a3_d419_4ad7_20190201905271145044969039" expanded="1" name="Standsningssted" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="FaergerutePunkt_6aeb62c4_32c4_4b29_201902019052711450450424697" expanded="1" name="Færgerute (punkt)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="FaergerutePunkt_6aeb62c4_32c4_4b29_201902019052711450450424697" expanded="1" name="Færgerute (punkt)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="FaergeruteLinje_6dd63c73_dc94_4c44_20192019052711450451129211" expanded="1" name="Færgerute (linje)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="FaergeruteLinje_6dd63c73_dc94_4c44_20192019052711450451129211" expanded="1" name="Færgerute (linje)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Lufthavn_9b381a3f_f9d0_401f_201902019052711450452115686" expanded="1" name="Lufthavn" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Lufthavn_9b381a3f_f9d0_401f_201902019052711450452115686" expanded="1" name="Lufthavn" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Navigationsanlaeg_88a80c45_fe6d_4178_20190201905271145045302373" expanded="1" name="Navigationsanlæg" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Navigationsanlaeg_88a80c45_fe6d_4178_20190201905271145045302373" expanded="1" name="Navigationsanlæg" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="Stednavne - landskab" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Soe_c940c747_f1fe_49fc_201902019052711450453921427" expanded="1" name="Sø" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Soe_c940c747_f1fe_49fc_201902019052711450453921427" expanded="1" name="Sø" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Vandloeb_b08ebb9f_23b6_4a4b_20190201905271145045481107" expanded="1" name="Vandløb" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Vandloeb_b08ebb9f_23b6_4a4b_20190201905271145045481107" expanded="1" name="Vandløb" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Farvand_2f9b7820_07c0_4f2e_20192019052711450455812586" expanded="1" name="Farvand" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Farvand_2f9b7820_07c0_4f2e_20192019052711450455812586" expanded="1" name="Farvand" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="UrentFarvand_4d634170_faf5_4998_201902019052711450456725396" expanded="1" name="UrentFarvand" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="UrentFarvand_4d634170_faf5_4998_201902019052711450456725396" expanded="1" name="UrentFarvand" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Naturareal_7369c8b6_3ccd_457a_20190201905271145045751365" expanded="1" name="Naturareal" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Naturareal_7369c8b6_3ccd_457a_20190201905271145045751365" expanded="1" name="Naturareal" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Landskabsform_ff0ab5f6_6135_48e8_20190201905271145045854192" expanded="1" name="Landskabsform" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Landskabsform_ff0ab5f6_6135_48e8_20190201905271145045854192" expanded="1" name="Landskabsform" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Terraenkontur_98be5bd2_ecd9_4a9a_20190201905271145045943175" expanded="1" name="Terrænkontur" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Terraenkontur_98be5bd2_ecd9_4a9a_20190201905271145045943175" expanded="1" name="Terrænkontur" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="AndenTopografiFlade_c431040b_30e6_4ac1_201902019052711450460211406" expanded="1" name="Anden topografi (flade)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="AndenTopografiFlade_c431040b_30e6_4ac1_201902019052711450460211406" expanded="1" name="Anden topografi (flade)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="AndenTopografiPunkt_83dc541f_6432_423b_20190201905271145046113161" expanded="1" name="Anden topografi (punkt)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="AndenTopografiPunkt_83dc541f_6432_423b_20190201905271145046113161" expanded="1" name="Anden topografi (punkt)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" name="Matrikel" checked="Qt::Checked">
         <customproperties/>
-        <layer-tree-layer id="Temalinje_5d219939_91d4_4664_201902019052711450462130054" expanded="1" name="Temalinje" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Temalinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Temalinje_5d219939_91d4_4664_201902019052711450462130054" expanded="1" name="Temalinje" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Temalinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Skelpunkt_0ded4a98_ea1c_462a_20190201905271145046301380" expanded="1" name="Skelpunkt" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Skelpunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Skelpunkt_0ded4a98_ea1c_462a_20190201905271145046301380" expanded="1" name="Skelpunkt" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Skelpunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="SamletFastEjendom_c1c4065b_3580_4ae9_2019201905271145046381706" expanded="1" name="Samlet fast ejendom" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:SamletFastEjendom' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="SamletFastEjendom_c1c4065b_3580_4ae9_2019201905271145046381706" expanded="1" name="Samlet fast ejendom" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:SamletFastEjendom' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="JordstykkeTemaflade_98a0d4be_ebfb_4213_201902019052711450464730469" expanded="1" name="Jordstykke (temaflade)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:JordstykkeTemaflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="JordstykkeTemaflade_98a0d4be_ebfb_4213_201902019052711450464730469" expanded="1" name="Jordstykke (temaflade)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:JordstykkeTemaflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="OptagetVej_90c06181_e254_4d2e_201902019052711450465629086" expanded="1" name="Optaget vej" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:OptagetVej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="OptagetVej_90c06181_e254_4d2e_201902019052711450465629086" expanded="1" name="Optaget vej" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:OptagetVej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Nullinje_cf255cb9_aa14_4210_201902019052711450466526178" expanded="1" name="Nullinje" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Nullinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Nullinje_cf255cb9_aa14_4210_201902019052711450466526178" expanded="1" name="Nullinje" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Nullinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="MatrikelSogn_87ed3a3c_2766_4abf_20192019052711450467317595" expanded="1" name="Matrikel - sogn" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelSogn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="MatrikelSogn_87ed3a3c_2766_4abf_20192019052711450467317595" expanded="1" name="Matrikel - sogn" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelSogn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="MatrikelKommune_55c600f4_1a09_4942_20192019052711450468230483" expanded="1" name="Matrikel - kommune" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelKommune' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="MatrikelKommune_55c600f4_1a09_4942_20192019052711450468230483" expanded="1" name="Matrikel - kommune" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelKommune' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Matrikelskel_3da84335_08a5_41e9_201902019052711450469211761" expanded="1" name="Matrikelskel" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Matrikelskel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Matrikelskel_3da84335_08a5_41e9_201902019052711450469211761" expanded="1" name="Matrikelskel" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Matrikelskel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Lodflade_d1e85e79_a7c4_4db2_20192019052711450470014874" expanded="1" name="Lodflade" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Lodflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Lodflade_d1e85e79_a7c4_4db2_20192019052711450470014874" expanded="1" name="Lodflade" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Lodflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Ejerlejlighedslod_78b03652_b2e7_4fb4_201902019052711450470829699" expanded="1" name="Ejerlejlighedslod" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlejlighedslod' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Ejerlejlighedslod_78b03652_b2e7_4fb4_201902019052711450470829699" expanded="1" name="Ejerlejlighedslod" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlejlighedslod' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Ejerlav_1ec27798_33c2_4a06_20190201905271145047176414" expanded="1" name="Ejerlav" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlav' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Ejerlav_1ec27798_33c2_4a06_20190201905271145047176414" expanded="1" name="Ejerlav" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlav' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="Centroide_28f805ee_5c62_4493_20192019052711450472610182" expanded="1" name="Centroide" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Centroide' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="Centroide_28f805ee_5c62_4493_20192019052711450472610182" expanded="1" name="Centroide" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Centroide' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="BygningPaaFremmedGrundPunkt_6ba82eb4_abe1_4003_20192019052711450473424453" expanded="1" name="Bygning på fremmed grund (punkt)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="BygningPaaFremmedGrundPunkt_6ba82eb4_abe1_4003_20192019052711450473424453" expanded="1" name="Bygning på fremmed grund (punkt)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer id="BygningPaaFremmedGrundFlade_f3da4a42_d239_4dad_201902019052711450474213380" expanded="1" name="Bygning på fremmed grund (flade)" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
+        <layer-tree-layer id="BygningPaaFremmedGrundFlade_f3da4a42_d239_4dad_201902019052711450474213380" expanded="1" name="Bygning på fremmed grund (flade)" source=" maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table=&quot;&quot; sql=" providerKey="WFS" checked="Qt::Checked">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -375,7 +375,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Kommuneinddeling_e4bcf9d4_4db8_4cf2_20190201905271145038229373</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Kommuneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Kommuneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -817,7 +817,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Sogneinddeling_545a9464_9537_4e89_201902019052711450383123233</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Sogneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Sogneinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1215,7 +1215,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Postnummerinddeling_a85aecb6_b31a_4629_201902019052711450383922022</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Postnummerinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Postnummerinddeling' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1613,7 +1613,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>SupplerendeBynavn_b363ea4e_b48d_4eb2_20192019052711450384812565</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:SupplerendeBynavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:SupplerendeBynavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2022,7 +2022,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Opstillingskreds_fd6f60a8_8f77_4dd8_20190201905271145038561920</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Opstillingskreds' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Opstillingskreds' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2453,7 +2453,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Afstemningsomraade_1964977d_6f09_448f_2019201905271145038658938</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Afstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Afstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2928,7 +2928,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Menighedsraadsafstemningsomraade_7f154662_ee6f_4847_201902019052711450387313401</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Menighedsraadsafstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='dagi:Menighedsraadsafstemningsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/dagi/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3403,7 +3403,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bygning_c0b78bba_d14b_498b_201902019052711450388222010</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3636,7 +3636,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bykerne_36222e4b_1814_4ff8_201902019052711450389111389</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bykerne' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bykerne' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3791,7 +3791,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Erhverv_aa75c228_722b_4c14_201902019052711450390032559</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Erhverv' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Erhverv' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3942,7 +3942,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>LavBebyggelse_b801ff40_3fd5_474e_201902019052711450390911034</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:LavBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:LavBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4093,7 +4093,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>HoejBebyggelse_8b78c024_41cc_41ef_2019201905271145039191857</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:HoejBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:HoejBebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4244,7 +4244,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>gdk_VejmidteBrudt_c71b9f47_4ac1_433e_2019052711450392812097</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VejmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VejmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4572,7 +4572,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vejkant_83da6f5c_bc8b_4322_201902019052711450393711607</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vejkant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vejkant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4755,7 +4755,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Helle_39d027d4_c2f5_4dbc_20190201905271145039463722</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Helle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Helle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4911,7 +4911,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Chikane_7c9b3caa_760d_41d5_20192019052711450395624450</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Chikane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Chikane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5067,7 +5067,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Trafikhegn_a036c7c6_3be0_4418_201902019052711450396514870</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trafikhegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trafikhegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5223,7 +5223,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Togstation_3bd15c33_41e4_4d7a_201902019052711450397482</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Togstation' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Togstation' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5401,7 +5401,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>gdk_JernbaneBrudt_142f8357_3652_41bb_2019052711450398412386</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:JernbaneBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:JernbaneBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5680,7 +5680,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Systemlinje_65101833_046f_4321_201902019052711450399318904</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Systemlinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Systemlinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5907,7 +5907,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>TekniskAreal_728f1509_8573_4cd9_201902019052711450400310936</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:TekniskAreal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:TekniskAreal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6085,7 +6085,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Startbane_5b818f01_a0eb_4924_201902019052711450401216834</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Startbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Startbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6252,7 +6252,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Hoejspaendingsledning_774f2d83_46a9_4779_201902019052711450402219281</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoejspaendingsledning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoejspaendingsledning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6474,7 +6474,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>AnlaegDiverse_284d0eaf_83d3_4851_2019201905271145040323977</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:AnlaegDiverse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:AnlaegDiverse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6630,7 +6630,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Hoefde_3f1380c4_eddc_466c_20192019052711450404131076</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoefde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hoefde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6802,7 +6802,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Parkering_efce253d_70f5_401f_201902019052711450405119643</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkering' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkering' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6974,7 +6974,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Skorsten_35e04049_5893_4144_20192019052711450406117068</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skorsten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skorsten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7148,7 +7148,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Telemast_7d256891_c054_4f67_201902019052711450407026857</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Telemast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Telemast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7344,7 +7344,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vindmoelle_e0d24141_4e44_4042_2019201905271145040795683</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vindmoelle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vindmoelle' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7529,7 +7529,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Mast_59fb9331_32b8_4b30_201902019052711450409017863</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Mast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Mast' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7703,7 +7703,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Nedloebsrist_e354a298_0da3_43cd_20190201905271145040992658</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Nedloebsrist' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Nedloebsrist' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7877,7 +7877,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Broenddaeksel_fcc609fa_765b_4f3e_20190201905271145041085499</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Broenddaeksel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Broenddaeksel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8051,7 +8051,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>StatueSten_2248dee6_7a45_413b_201902019052711450411812454</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:StatueSten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:StatueSten' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8209,7 +8209,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bygvaerk_e7e530ba_5a02_4352_2019201905271145041275166</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygvaerk' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bygvaerk' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8381,7 +8381,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Begravelsesomraade_eb7a856c_b224_49d9_20192019052711450413619246</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Begravelsesomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Begravelsesomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8611,7 +8611,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bassin_d195bab7_033f_419a_20192019052711450414516218</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Bassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8789,7 +8789,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Skov_4d14d49d_67bc_4e31_2019201905271145041557554</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skov' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skov' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8978,7 +8978,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Hede_094c347e_6ca8_4fff_2019020190527114504164116</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hede' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hede' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9156,7 +9156,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vaadomraade_98a726ea_e6ce_418a_2019201905271145041735904</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vaadomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vaadomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9323,7 +9323,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>KratBevoksning_e03f25e8_cebc_4aa9_201902019052711450418211735</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:KratBevoksning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:KratBevoksning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9490,7 +9490,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>SandKlit_a480c9e4_ada1_4006_201902019052711450419220190</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:SandKlit' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:SandKlit' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9641,7 +9641,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Raastofomraade_0fa75a9a_0f78_4f97_20190201905271145042007202</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Raastofomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Raastofomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9808,7 +9808,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Gartneri_58d8b663_d6fb_4a3e_201902019052711450420916893</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Gartneri' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Gartneri' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10057,7 +10057,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Hegn_4ce0db80_e06a_4f4b_20190201905271145042192916</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Hegn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10229,7 +10229,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Brugsgraense_f58e61e8_503f_49a6_20190201905271145042284730</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Brugsgraense' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Brugsgraense' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10385,7 +10385,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Skraent_b867a55c_fd7f_459e_201902019052711450423822218</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skraent' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Skraent' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10568,7 +10568,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Daemning_89ef96a6_e76c_4c46_201902019052711450424813014</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Daemning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Daemning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10740,7 +10740,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Dige_13135e5a_6f3c_439c_201902019052711450425717073</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Dige' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Dige' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10945,7 +10945,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Trae_e335fac2_d1dc_42a4_20190201905271145042652642</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trae' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Trae' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11103,7 +11103,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Traegruppe_0a47f4ff_c2cd_4c19_20192019052711450427525669</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Traegruppe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Traegruppe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11261,7 +11261,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Soe_44988093_1e6e_410f_201902019052711450428516535</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11472,7 +11472,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Afvandingsgroeft_97ff1409_e28f_4ff5_201902019052711450429514100</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Afvandingsgroeft' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Afvandingsgroeft' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11628,7 +11628,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vandloebskant_f4d126bb_9e8a_4a17_20190201905271145043044979</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vandloebskant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Vandloebskant' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11811,7 +11811,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>gdk_VandloebsmidteBrudt_2705425f_efe5_43a1_2019052711450431222591</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VandloebsmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:VandloebsmidteBrudt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12106,7 +12106,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Havn_2272010a_a64f_4bcf_201902019052711450432228625</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Havn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Havn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12289,7 +12289,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Kyst_07a668ac_4aab_4a9c_201902019052711450433023598</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Kyst' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Kyst' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12461,7 +12461,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>BadeBaadebro_0c46d2cf_6cc9_419b_2019201905271145043383854</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:BadeBaadebro' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:BadeBaadebro' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12633,7 +12633,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Plads_fd1db701_5907_4fb6_20190201905271145043466902</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Plads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Plads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12784,7 +12784,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>RekreativtOmraade_bbb63c6a_c8a5_4741_20190201905271145043569306</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:RekreativtOmraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:RekreativtOmraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12935,7 +12935,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Omraadepolygon_d2808747_1dda_493a_20192019052711450436428876</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Omraadepolygon' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Omraadepolygon' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -13102,7 +13102,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Parkeringsomraade_d9cf4b60_9744_4a6d_20192019052711450437216843</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkeringsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='gdk:Parkeringsomraade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/geodanmark/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -13280,7 +13280,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Sevaerdighed_e5008166_1a27_49ed_2019201905271145043816974</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Sevaerdighed' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -14107,7 +14107,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Fortidsminde_1e9846ce_66c8_4638_2019201905271145043916978</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Fortidsminde' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -15029,7 +15029,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bygning_328914f7_2437_4d07_20192019052711450439924843</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bygning' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -15757,7 +15757,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Bebyggelse_c5f5f67a_58a5_4c03_201902019052711450440815711</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Bebyggelse' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -16496,7 +16496,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Havnebassin_a4261f33_2603_4722_201902019052711450441725033</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Havnebassin' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -17268,7 +17268,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Friluftsbad_1cb58792_6d36_445b_201902019052711450442616650</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Friluftsbad' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -18069,7 +18069,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Idraetsanlaeg_fa8c9177_9709_4864_20190201905271145044345056</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Idraetsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -18808,7 +18808,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Campingplads_3ed997d1_6251_4845_20190201905271145044432145</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Campingplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -19657,7 +19657,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Begravelsesplads_5c25a017_87b1_4a53_20192019052711450445227045</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Begravelsesplads' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -20385,7 +20385,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Restriktionsareal_d696701f_d025_467c_20192019052711450446114353</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Restriktionsareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -21432,7 +21432,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vej_a90ebfd4_fde9_42bb_201902019052711450446910006</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -22143,7 +22143,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Jernbane_8cfae4c7_f736_4c37_201902019052711450447730809</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Jernbane' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -22904,7 +22904,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Rute_a438a5d6_b3c5_42bb_201902019052711450448725094</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Rute' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -23615,7 +23615,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Standsningssted_8c1e32a3_d419_4ad7_20190201905271145044969039</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Standsningssted' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -24537,7 +24537,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>FaergerutePunkt_6aeb62c4_32c4_4b29_201902019052711450450424697</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergerutePunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -24695,7 +24695,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>FaergeruteLinje_6dd63c73_dc94_4c44_20192019052711450451129211</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:FaergeruteLinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -24878,7 +24878,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Lufthavn_9b381a3f_f9d0_401f_201902019052711450452115686</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Lufthavn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -25832,7 +25832,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Navigationsanlaeg_88a80c45_fe6d_4178_20190201905271145045302373</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Navigationsanlaeg' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -26666,7 +26666,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Soe_c940c747_f1fe_49fc_201902019052711450453921427</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Soe' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -27482,7 +27482,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Vandloeb_b08ebb9f_23b6_4a4b_20190201905271145045481107</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Vandloeb' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28193,7 +28193,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Farvand_2f9b7820_07c0_4f2e_20192019052711450455812586</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Farvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -28888,7 +28888,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>UrentFarvand_4d634170_faf5_4998_201902019052711450456725396</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:UrentFarvand' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -29692,7 +29692,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Naturareal_7369c8b6_3ccd_457a_20190201905271145045751365</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Naturareal' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -31984,7 +31984,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Landskabsform_ff0ab5f6_6135_48e8_20190201905271145045854192</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Landskabsform' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -32690,7 +32690,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Terraenkontur_98be5bd2_ecd9_4a9a_20190201905271145045943175</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:Terraenkontur' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -33401,7 +33401,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>AndenTopografiFlade_c431040b_30e6_4ac1_201902019052711450460211406</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -34217,7 +34217,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>AndenTopografiPunkt_83dc541f_6432_423b_20190201905271145046113161</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='sn:AndenTopografiPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/stednavne/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -34919,7 +34919,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Temalinje_5d219939_91d4_4664_201902019052711450462130054</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Temalinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Temalinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -35157,7 +35157,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Skelpunkt_0ded4a98_ea1c_462a_20190201905271145046301380</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Skelpunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Skelpunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -35399,7 +35399,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>SamletFastEjendom_c1c4065b_3580_4ae9_2019201905271145046381706</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:SamletFastEjendom' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:SamletFastEjendom' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -35612,7 +35612,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>JordstykkeTemaflade_98a0d4be_ebfb_4213_201902019052711450464730469</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:JordstykkeTemaflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:JordstykkeTemaflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -35812,7 +35812,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>OptagetVej_90c06181_e254_4d2e_201902019052711450465629086</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:OptagetVej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:OptagetVej' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36019,7 +36019,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Nullinje_cf255cb9_aa14_4210_201902019052711450466526178</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Nullinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Nullinje' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36155,7 +36155,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>MatrikelSogn_87ed3a3c_2766_4abf_20192019052711450467317595</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelSogn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelSogn' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36333,7 +36333,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>MatrikelKommune_55c600f4_1a09_4942_20192019052711450468230483</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelKommune' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:MatrikelKommune' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36511,7 +36511,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Matrikelskel_3da84335_08a5_41e9_201902019052711450469211761</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Matrikelskel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Matrikelskel' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36817,7 +36817,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Lodflade_d1e85e79_a7c4_4db2_20192019052711450470014874</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Lodflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Lodflade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -36995,7 +36995,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Ejerlejlighedslod_78b03652_b2e7_4fb4_201902019052711450470829699</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlejlighedslod' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlejlighedslod' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37217,7 +37217,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Ejerlav_1ec27798_33c2_4a06_20190201905271145047176414</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlav' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Ejerlav' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37395,7 +37395,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>Centroide_28f805ee_5c62_4493_20192019052711450472610182</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Centroide' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:Centroide' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37560,7 +37560,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>BygningPaaFremmedGrundPunkt_6ba82eb4_abe1_4003_20192019052711450473424453</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundPunkt' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -37698,7 +37698,7 @@
         <ymax>6512869.66988760698586702</ymax>
       </extent>
       <id>BygningPaaFremmedGrundFlade_f3da4a42_d239_4dad_201902019052711450474213380</id>
-      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
+      <datasource> maxNumFeatures='10000' pagingEnabled='false' restrictToRequestBBOX='1' srsname='EPSG:25832' typename='mat:BygningPaaFremmedGrundFlade' url='https://dfd-qgis-wfs-proxy.septima.dk/wfs-meta/matrikel/capabilities.php?username={{username}}&amp;password={{password}}' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
