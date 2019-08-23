@@ -2,6 +2,8 @@
 
 Plugin til QGIS som gør det nemmere at tilføje services fra Datafordeleren. Koden til dette plugin er baseret på koden fra Kortforsyningspluginet.
 
+![Skærmdump](docs/images/screendump.png)
+
 ## Installation
 Indtil videre skal pluginet installeres manuelt. Dette gøres således:
 
