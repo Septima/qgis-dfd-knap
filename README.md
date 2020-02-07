@@ -1,19 +1,13 @@
-# qgis-dfd-knap
+# Datafordeler
 
 Plugin til QGIS som gør det nemmere at tilføje services fra Datafordeleren. Koden til dette plugin er baseret på koden fra Kortforsyningspluginet.
 
 ![Skærmdump](docs/images/screendump.png)
 
+Bemærk, at Septima stiller pluginet frit og gratis til rådighed i det håb, at det kan være til nytte. Vi kan desværre ikke tilbyde gratis support.
+
 ## Installation
-Indtil videre skal pluginet installeres manuelt. Dette gøres således:
-
-- Download Datafordeler-pluginet. På sigt vil plugin'et blive tilgængeligt gennem QGIS' plugin repository, men indtil da downloades en zip-fil med pluginet fra [Septimas Github](https://github.com/Septima/qgis-dfd-knap/releases)
-- Start QGIS 3.4 eller senere
-- Installér pluginet
-  - Klik på menuen 'Plugins' og derefter 'Administrér og Installér Plugins'
-  - Udpeg zip-filen (`Datafordeler.zip`) med Datafordeler-pluginet som du hentede i trin 1
-  - Klik 'Installér'
-
+Pluginet installeres gennem QGIS´ plugin manager ved at søge på `Datafordeler`.
   
 ## Første gang du bruger pluginet
 Pluginet kræver en tjenestebruger til Datafordeleren. For at kunne oprette en tjenestebruger skal du først oprette en webbruger, derefter kan der oprettes en tjenestebruger under denne webbruger. Læs mere på [Datafordelerens dokumentation](https://datafordeler.dk/vejledning/brugeradgang/brugeroprettelse/).

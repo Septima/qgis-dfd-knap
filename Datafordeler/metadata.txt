@@ -13,35 +13,33 @@ name=Datafordeler
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
 description=Easy access to webservices from Datafordeler in QGIS Desktop.
-version=1.1
+version=1.2
 author=Septima
 email=kontakt@septima.dk
 
 
 # End of mandatory metadata
 
-about=In English:
+about=Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS. En ny menu, 'Datafordeler' tilføjes QGIS. Denne menu indeholder data fordelt på kategorier.
+    Det er nødvendigt at have en tjenestebruger til Datafordeleren. Læs mere om oprettelse af tjenestebruger på <a href="https://datafordeler.dk/vejledning/brugeradgang/brugeroprettelse/">datafordeler.dk</a>.
+    Bemærk, at Septima stiller pluginet frit og gratis til rådighed i det håb, at det kan være til nytte. Vi kan desværre ikke tilbyde gratis support.
+    English:
     This plugin makes it easy to use the services from Datafordeleren (Danish data). A new menu, 'Datafordeler', is added to the QGIS menu. This contains Datafordeler-services ordered by category.
     In order to use the plugin, a Datafordeler service user (in Danish 'Tjenestebruger') is required. If you do not have an account, read more about creating one at <a href="https://datafordeler.dk/vejledning/brugeradgang/brugeroprettelse/">datafordeler.dk</a>.
-    Read more about <a href="'https://septima.dk/blog/DatafordelerPlugin">the plugin</a>
-    In Danish:
-    Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS. En ny menu, 'Datafordeler' tilføjes QGIS. Denne menu indeholder data fordelt på kategorier.
-    Det er nødvendigt at have en tjenestebruger til Datafordeleren. Læs mere om oprettelse af tjenestebruger på <a href="https://datafordeler.dk/vejledning/brugeradgang/brugeroprettelse/">datafordeler.dk</a>.
-    Læs <a href="https://septima.dk/blog/DatafordelerPlugin">mere om pluginet</a>.
-    This plugin is developed by Septima
     <img src="http://www.septima.dk/skin1/img/logo_143x39.png" alt="Septima">
 
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=2019-08-23: Version 1.1 Fix path to configuration download
+changelog=2020-01-07: Version 1.2 Publish to plugin repository
+  2019-08-23: Version 1.1 Fix path to configuration download
   2019-02-20: Updated to QGIS3, allowed search with locator
   2016-10-31: Version 0.2. Removed Datafordeler-icon and specified information about creating a serviceuser to Datafordeler
   2016-09-19: Version 0.1. First release
 
 
 # Tags are comma separated with spaces allowed
-tags=Danmark, Denmark, frie data, open data, dansk, Danish, Datafordeler, WFS, Septima
+tags=Danmark, Denmark, frie data, open data, dansk, Danish, Datafordeler, WFS
 
 homepage=https://github.com/Septima/qgis-dfd-knap
 tracker=https://github.com/Septima/qgis-dfd-knap/issues
