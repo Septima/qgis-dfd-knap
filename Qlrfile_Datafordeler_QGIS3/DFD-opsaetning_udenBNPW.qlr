@@ -405,13 +405,13 @@
       </layer-tree-group>
       <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Baggrundskort - skærmkort [WMS]">
         <customproperties/>
-        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_f52281f5_d7ca_4c7c_20190821120190822020190823112154172584693672" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1" name="Skærmkort">
+        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_f52281f5_d7ca_4c7c_20190821120190822020190823112154172584693672" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}" name="Skærmkort">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_daempet_62c62c67_fd1b_4745_20190821152019082209201908231121541791518152238" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_daempet&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1" name="Skærmkort-dæmpet">
+        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_daempet_62c62c67_fd1b_4745_20190821152019082209201908231121541791518152238" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_daempet&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}" name="Skærmkort-dæmpet">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_graa_db700156_d57d_494d_2019082112019082209201908231121541851994710270" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_graa&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1" name="Skærmkort-grå">
+        <layer-tree-layer providerKey="wms" id="dtk_skaermkort_graa_db700156_d57d_494d_2019082112019082209201908231121541851994710270" checked="Qt::Unchecked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_graa&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}" name="Skærmkort-grå">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -60670,7 +60670,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>6500000</ymax>
       </extent>
       <id>dtk_skaermkort_f52281f5_d7ca_4c7c_20190821120190822020190823112154172584693672</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1</datasource>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -60752,7 +60752,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>6500000</ymax>
       </extent>
       <id>dtk_skaermkort_daempet_62c62c67_fd1b_4745_20190821152019082209201908231121541791518152238</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_daempet&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1</datasource>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_daempet&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -60834,7 +60834,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>6500000</ymax>
       </extent>
       <id>dtk_skaermkort_graa_db700156_d57d_494d_2019082112019082209201908231121541851994710270</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_graa&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3DTestBruger0A8T3R%26password%3DDaf_tester1</datasource>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:25832&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=dtk_skaermkort_graa&amp;styles&amp;url=https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username%3D{{username}}%26password%3D{{password}}</datasource>
       <keywordList>
         <value></value>
       </keywordList>
