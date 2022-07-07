@@ -13,7 +13,7 @@ name=Datafordeler
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
 description=Easy access to webservices from Datafordeler in QGIS Desktop.
-version=1.2
+version=1.3
 author=Septima
 email=kontakt@septima.dk
 
@@ -31,7 +31,8 @@ about=Dette plugin gør det let at få vist tjenester fra Datafordeleren i QGIS.
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=2020-01-07: Version 1.2 Publish to plugin repository
+changelog=2022-07-07: Version 1.3 Update url to qlr file on github
+  2020-01-07: Version 1.2 Publish to plugin repository
   2019-08-23: Version 1.1 Fix path to configuration download
   2019-02-20: Updated to QGIS3, allowed search with locator
   2016-10-31: Version 0.2. Removed Datafordeler-icon and specified information about creating a serviceuser to Datafordeler
