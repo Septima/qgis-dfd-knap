@@ -2,8 +2,11 @@ from builtins import str
 import codecs
 import os.path
 import datetime
-from urllib.request import (
-    urlopen
+#from urllib.request import (
+#    urlopen
+#
+from urllib import (
+    request
 )
 from urllib.error import (
     URLError,
@@ -18,9 +21,12 @@ from qgis.PyQt.QtGui import QIcon
 
 from qgis.PyQt import QtCore, QtXml
 
+from qgis.PyQt.QtNetwork import QNetworkRequest
+
 import hashlib
 import glob
 import json
+import traceback
 
 from .qlr_file import QlrFile
 
@@ -29,6 +35,9 @@ FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 def log_message(message):
     QgsMessageLog.logMessage(message, 'Datafordeler plugin')
+
+def log_error(error):
+    QgsMessageLog.logMessage(message=error, tag='Datafordeler plugin', level= Qgis.MessageLevel.Critical)
 
 class DfdConfig(QtCore.QObject):
     
@@ -100,7 +109,7 @@ class DfdConfig(QtCore.QObject):
             try:
                 config = self.get_remote_dfd_qlr()
             except Exception as e:
-                log_message(u'No contact to the configuration at ' + self.settings.value('dfd_qlr_url') + '. Exception: ' + str(e))
+                log_error(u'No contact to the configuration at ' + self.settings.value('dfd_qlr_url') + '. Exception: ' + traceback.format_exc())
                 if not local_file_exists:
                     self.error_menu = QAction(
                         self.tr('No contact to Datafordeler'),
@@ -120,12 +129,13 @@ class DfdConfig(QtCore.QObject):
         f.open(QIODevice.ReadOnly)
         return f.readAll()
 
-        #with codecs.open(self.cached_kf_qlr_filename, 'r', 'utf-8') as f:
-        #    return f.read()
-
     def get_remote_dfd_qlr(self):
-        response = urlopen(self.settings.value('dfd_qlr_url'))
-        content = response.read()
+        url = QUrl(self.settings.value('dfd_qlr_url'))
+        qnetworkrequest = QNetworkRequest(url)
+        request = QgsBlockingNetworkRequest()
+        request.get(request=qnetworkrequest, forceRefresh=True)
+        reply = request.reply()
+        content = reply.content()
         content = str(content, 'utf-8')
         content = self.insert_username_password(content)
         return content
