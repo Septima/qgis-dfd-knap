@@ -1,6 +1,6 @@
 # Datafordeler
 
-# Vigtig info - pluginet nedlægges pr. 15. december 2023
+# Vigtig info - den service som pluginet bruger nedlægges pr. 15. december 2023, hvorefter pluginet ikke længere vil virke
 Datafordeler-pluginet blev lavet tilbage i 2016 for, at data fra Datafordeleren kunne ses i QGIS. Dengang var det ikke muligt at tilgå Datafordelerens data i QGIS. Datafordeler-pluginet - og Septimas tilhørende proxy - gjorde det således muligt at få vist data fra Datafordeleren. Siden da har Styrelsen for Dataforsyning og Infrastruktur (SDFI) også lavet en proxy til Datafordeleren, og SDFI udstiller nu en række datasæt fra Datafordeleren via pluginet 'Dataforsyningen'. 
 
 Vi har i Septima således besluttet at ændre Datafordeler-pluginets status til 'forældet'/'deprecated', og den proxy som pluginet bruger vil blive nedlagt d. 15. december 2023.
