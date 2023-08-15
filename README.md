@@ -1,9 +1,16 @@
 # Datafordeler
 
 # Vigtig info - den service som pluginet bruger nedlægges pr. 15. december 2023, hvorefter pluginet ikke længere vil virke
-Datafordeler-pluginet blev lavet tilbage i 2016 for, at data fra Datafordeleren kunne ses i QGIS. Dengang var det ikke muligt at tilgå Datafordelerens data i QGIS. Datafordeler-pluginet - og Septimas tilhørende proxy - gjorde det således muligt at få vist data fra Datafordeleren. Siden da har Styrelsen for Dataforsyning og Infrastruktur (SDFI) også lavet en proxy til Datafordeleren, og SDFI udstiller nu en række datasæt fra Datafordeleren via pluginet 'Dataforsyningen'. 
+Tilbage i 2016 var det ikke muligt at tilgå Datafordelerens WFS-data i QGIS. Dette skyldtes, at WFS-tjenesterne blev udstillet med en kompleks struktur som QGIS ikke kunne håndtere. I Septima lavede vi en række ændringer til QGIS' håndtering af WFS'er og desuden udviklede vi en proxy, der omdannede WFS-tjenester fra Datafordeleren til en form som QGIS kunne vise. Disse omdannede WFS-tjenester udstillede vi via QGIS-pluginet 'Datafordeler'. Disse ændringer blev finansieret af en række kommuner, en styrelse og en organisation - og Septima finansierede også en del timer i projektet. Du kan læse mere om baggrunden for udviklingen af pluginet <a href="https://septima.dk/nyheder/DatafordelerPlugin">her</a>.
 
-Vi har i Septima således besluttet at ændre Datafordeler-pluginets status til 'forældet'/'deprecated', og den proxy som pluginet bruger vil blive nedlagt d. 15. december 2023.
+Septima har siden 2016 således haft denne proxy kørende, og har stillet data og plugin frit tilrådighed. 
+
+Siden 2016 er der blevet lavet en række ændringer til håndteringen af WFS'er i QGIS' kernekode. Desuden har Styrelsen for Dataforsyning og Infrastruktur (SDFI) sidenhen lavet en proxy til Datafordeleren, og SDFI udstiller nu en række WFS'er fra Datafordeleren via QGIS-pluginet 'Dataforsyningen'.
+
+Da en række af Datafordelerens data nu er tilgængelig via pluginet 'Dataforsyningen', synes vi i Septima, at QGIS-pluginet 'Datafordeler' har mistet sin værdi.   
+Derfor vil vi ændre Datafordeler-pluginets status til 'forældet'/'deprecated', og den proxy som pluginet bruger vil blive nedlagt d. 15. december 2023.
+
+Vi vil anbefale, at I skriver til Dataforsyningen, hvis I har ønsker om at flere datasæt udstilles via Dataforsynings-pluginet.
 
 # Om pluginet
 
