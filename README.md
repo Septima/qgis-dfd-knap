@@ -10,7 +10,8 @@ Siden 2016 er der blevet lavet en række ændringer til håndteringen af WFS'er 
 Da en række af Datafordelerens data nu er tilgængelig via pluginet 'Dataforsyningen', synes vi i Septima, at QGIS-pluginet 'Datafordeler' har mistet sin værdi.   
 Derfor vil vi ændre Datafordeler-pluginets status til 'forældet'/'deprecated', og den proxy som pluginet bruger vil blive nedlagt d. 15. december 2023.
 
-Vi vil anbefale, at I skriver til Dataforsyningen, hvis I har ønsker om at flere datasæt udstilles via Dataforsynings-pluginet.
+Vi har oprettet forslag til flere lag på Dataforsyningspluginet - https://github.com/SDFIdk/Qgis-dataforsyningen/issues/30.
+Vi vil anbefale, at I skriver på Dataforsyningens Github (fx på <a href="https://github.com/SDFIdk/Qgis-dataforsyningen/issues/30">Issue 30</a>), hvis I har ønsker om at flere datasæt udstilles via Dataforsynings-pluginet.
 
 # Om pluginet
 
