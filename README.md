@@ -3,7 +3,7 @@
 # Vigtig info - den service som pluginet bruger nedlægges pr. 15. december 2023, hvorefter pluginet ikke længere vil virke
 Tilbage i 2016 var det ikke muligt at tilgå Datafordelerens WFS-data i QGIS. Dette skyldtes, at WFS-tjenesterne blev udstillet med en kompleks struktur som QGIS ikke kunne håndtere. I Septima lavede vi en række ændringer til QGIS' håndtering af WFS'er og desuden udviklede vi en proxy, der omdannede WFS-tjenester fra Datafordeleren til en form som QGIS kunne vise. Disse omdannede WFS-tjenester udstillede vi via QGIS-pluginet 'Datafordeler'. Disse ændringer blev finansieret af en række kommuner, en styrelse og en organisation - og Septima finansierede også en del timer i projektet. Du kan læse mere om baggrunden for udviklingen af pluginet <a href="https://septima.dk/nyheder/DatafordelerPlugin">her</a>.
 
-Septima har siden 2016 således haft denne proxy kørende, og har stillet data og plugin frit tilrådighed. 
+Septima har siden 2016 haft denne proxy kørende, herunder finaniseret vedligeholdelsen og udstilling af denne proxy. Pluginet har vi stillet frit til rådighed.
 
 Siden 2016 er der blevet lavet en række ændringer til håndteringen af WFS'er i QGIS' kernekode. Desuden har Styrelsen for Dataforsyning og Infrastruktur (SDFI) sidenhen lavet en proxy til Datafordeleren, og SDFI udstiller nu en række WFS'er fra Datafordeleren via QGIS-pluginet 'Dataforsyningen'.
 
